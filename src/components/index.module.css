@@ -1,0 +1,55 @@
+body
+{
+    background-color: #000000;
+}
+.whiteText
+{
+    color: #ffffff;
+}
+.orangeText
+{
+    color: #fa6900;
+}
+.main
+{
+    background-image: url("../assets/spiral.svg");
+    background-position-x: 50%;
+    /* background-position-y: 5%; */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.home
+{
+    /* background-image: url('../assets/spiral_start.svg'); */
+    height: 95vh;
+    background-position: center;
+    width: 100%;
+    /* border: solid 1px red; */
+    /* background-position-y:30px !important;  */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.about
+{
+    height: 95vh;
+    background-position: calc(48.7%) calc(48.7%);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.exp
+{
+    height: 210vh;
+    background-position: calc(48.7%) calc(48.7%);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work
+{
+    height: 190vh;
+    background-position: calc(48.7%) calc(48.7%);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
