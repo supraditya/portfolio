@@ -1,14 +1,44 @@
+*:focus
+{
+    outline:none;
+}
 body
 {
     background-color: #000000;
+    font-family: 'Saira', sans-serif;
 }
 .whiteText
 {
     color: #ffffff;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: -9%;
+    line-height: 115%;
+}
+.whiteTextLarge
+{
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 105px;
+    max-width: 45%;
+    line-height: 130%;
 }
 .orangeText
 {
     color: #fa6900;
+    font-weight: 800;
+    
+}
+/* p
+{
+    border: solid 1px red;
+} */
+.orangeTextLarge
+{
+    color: #fa6900;
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: -5%;
 }
 .main
 {
@@ -17,39 +47,99 @@ body
     /* background-position-y: 5%; */
     background-size: contain;
     background-repeat: no-repeat;
+    width: 87%;
+    overflow-x: hidden;
+    margin: auto;
 }
 .home
 {
-    /* background-image: url('../assets/spiral_start.svg'); */
     height: 95vh;
+    /* padding-top: 1%; */
     background-position: center;
-    width: 100%;
-    /* border: solid 1px red; */
-    /* background-position-y:30px !important;  */
-    background-size: contain;
-    background-repeat: no-repeat;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+
 }
 .about
 {
     height: 95vh;
-    background-position: calc(48.7%) calc(48.7%);
     width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .exp
 {
     height: 210vh;
-    background-position: calc(48.7%) calc(48.7%);
     width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .work
 {
     height: 190vh;
-    background-position: calc(48.7%) calc(48.7%);
     width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.actionButtons
+{
+    color: #fff;
+    min-width: 35%;
+    /* border: solid 1px red; */
+    text-align: center;
+}
+.linkButtons
+{
+    display: flex;
+    width: 100%;
+    /* border: solid 1px white; */
+    justify-content:space-evenly;
+    margin-bottom: 4%;
+    align-items: center;
+}
+.linkButtons a img
+{
+    transition: all 0.2s;
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+}
+.buttonStyle img
+{
+    height: 40px;
+    width: 40px;
+}
+.linkButtons a img:hover
+{
+    transition: all 0.2s;
+    background: #fa6900;
+}
+.buttonStyle
+{
+    transition: all 0.2s;
+    text-decoration: none;
+    background:transparent;
+    border: solid 1px #ffffff;
+    border-radius: 8px;
+    min-height: 60px;
+    min-width: 200px;
+    max-width: 70% !important;
+    color: #ffffff;
+    font-family: Saira;
+    font-size: 26px;
+    font-weight: 300;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.buttonStyle:hover
+{
+    transition: all 0.2s;
+    border-color: #fa6900;
 }
