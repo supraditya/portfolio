@@ -7,6 +7,8 @@
   Gatsby minimal starter
 </h1>
 
+## Project Deployed At: https://aditya-menon.netlify.app
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
