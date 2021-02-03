@@ -1,13 +1,17 @@
 import React from 'react';
 import styles from "./Home.module.css";
-import { FaLinkedin, FaGithub, FaPhoneAlt, FaGoogleDrive } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaChevronDown, FaGoogleDrive } from 'react-icons/fa';
 import {IoMail} from 'react-icons/io5';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 const Home=()=>{
     return(
         <div className={styles.home}>
         <div>
         <p className={styles.whiteText}>Hi, I'm <br></br><span className={styles.orangeTextLarge}>Aditya Menon</span></p>
         <p className={styles.whiteTextLarge}>Frontend Web Developer</p>
+        <div className={styles.chevDiv}>
+          <a onClick={() => scrollTo('#about')}><span className={styles.icon}><FaChevronDown size="70px"/></span></a>
+        </div>
         </div>
         <div className={styles.actionButtons}>
           <div className={styles.linkButtons}>

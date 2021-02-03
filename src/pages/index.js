@@ -6,7 +6,7 @@ const IndexPage=()=>{
   return(
     <div className={styles.main}>
       <Home/>
-      <div className={styles.about}>
+      <div id="about" className={styles.about}>
         <h1 className={styles.whiteText}>Who Am I?</h1>
       </div>
       <div className={styles.exp}>
