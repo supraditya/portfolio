@@ -11,11 +11,11 @@ const Home=()=>{
         </div>
         <div className={styles.actionButtons}>
           <div className={styles.linkButtons}>
-          <a>
+          {/* <a href="tel:7738014883">
             <span className={styles.icon}>
             <FaPhoneAlt size="45px"/>
             </span>
-          </a>
+          </a> */}
           <a href="https://www.linkedin.com/in/supraditya" target="_blank" rel="noreferrer">
             <span className={styles.icon}>
               <FaLinkedin size="50px"/>
@@ -26,7 +26,7 @@ const Home=()=>{
               <FaGithub size="50px"/>
             </span>
           </a>
-          <a>
+          <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=aditya300100@gmail.com&tf=1" target="_blank" rel="noreferrer">
             <span className={styles.icon}>
               <IoMail size='55px'/>
             </span>
