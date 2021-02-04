@@ -10,7 +10,7 @@ const IndexPage=()=>{
       <div id="about" className={styles.about}>
       <About/>
       </div>
-      <div className={styles.exp}>
+      <div id="skills" className={styles.exp}>
         <h1 className={styles.whiteText}>Skills</h1>
       </div>
       <div className={styles.work}>

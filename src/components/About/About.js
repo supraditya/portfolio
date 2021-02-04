@@ -1,9 +1,41 @@
 import React from 'react'
 import styles from './About.module.css';
+import {FaChevronDown, FaInstagram, FaYoutube, FaSoundcloud} from 'react-icons/fa';
+import scrollTo from 'gatsby-plugin-smoothscroll';
+
 const About=()=>{
     return(
         <div className={styles.about}>
-            <h1 className={styles.whiteText}>Who Am I?</h1>
+            <div className={styles.aboutLeft}>
+                <h1 className={styles.whiteTextHeader}>Who Am <span className={styles.orangeTextHeader}>I</span>?</h1>
+                <p className={styles.whiteText}>
+                I, <span className={styles.orangeText}>Aditya Menon</span>, am a 3rd Year Computer Science student here at VIT Vellore.<br></br><br></br> I have been working as a self-taught Frontend Web Developer and Designer for <span className={styles.orangeText}>14</span> months and have completed an internship, along with several projects for my Student Organisation: <span className={styles.orangeText}>IEEE-CS VIT</span>.<br></br><br></br> Apart from Web Development, I occasionally produce music, sketch comedy and standups since you either gotta be funny or good-looking (I’m neither)
+                </p>
+                <div className={styles.chevDiv}>
+                    <p className={styles.thinWhiteText}>NOW, ONTO BUSINESS</p>
+                    <button onClick={() => scrollTo('#skills')}><span className={styles.icon}><FaChevronDown size="70px"/></span></button>
+                </div>
+            </div>
+            <div className={styles.aboutRight}>
+                <div className={styles.iconDiv}>
+                    <a href="https://www.linkedin.com/in/supraditya" target="_blank" rel="noreferrer">
+                        <span className={styles.icon}>
+                        <FaInstagram size="50px"/>
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/supraditya" target="_blank" rel="noreferrer">
+                        <span className={styles.icon}>
+                        <FaYoutube size="50px"/>
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/supraditya" target="_blank" rel="noreferrer">
+                        <span className={styles.icon}>
+                        <FaSoundcloud size="50px"/>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
         </div>
     )
 }

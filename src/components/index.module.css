@@ -25,21 +25,32 @@ body
 }
 .main
 {
-    background-image: url("../assets/spiral.svg");
-    background-position-x: 50%;
-    /* background-position-y: 5%; */
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 87%;
+    background-image: url("../assets/spiral.svg"), url("../assets/self.png");
+    background-position-x: 50%, 100%;
+    background-position-y: 0%, 20%;
+    background-size: contain, 85vh;
+    background-repeat: no-repeat, no-repeat;
+    background-position: none, right;
+    background-attachment: none, fixed;
+    /* width: 87%; */
     overflow-x: hidden;
     margin: auto;
 }
 .about
 {
-    height: 95vh;
-    width: 100%;
+    margin-top: 5% !important;
+    /* height: 95vh; */
+    /* width: 100%; */
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 0.5%;
+    max-width: 88%;
+    margin: auto;
+    /* border: solid 1px red; */
+    /* background-image: url('../assets/self.png'); */
+    /* background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain; */
 }
 .exp
 {
@@ -54,10 +65,4 @@ body
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
-}
-.about
-{
-    border: solid 1px red;
-    max-width: 88%;
-    margin: auto;
 }
