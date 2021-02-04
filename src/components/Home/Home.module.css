@@ -105,7 +105,12 @@
     width: 60%;
     margin-top: -8%;
 }
-a span
+.chevDiv button
+{
+    border: none;
+    background: transparent;
+}
+a span, button span
 {
     cursor: pointer;
 }

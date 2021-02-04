@@ -10,7 +10,7 @@ const Home=()=>{
         <p className={styles.whiteText}>Hi, I'm <br></br><span className={styles.orangeTextLarge}>Aditya Menon</span></p>
         <p className={styles.whiteTextLarge}>Frontend Web Developer</p>
         <div className={styles.chevDiv}>
-          <a onClick={() => scrollTo('#about')}><span className={styles.icon}><FaChevronDown size="70px"/></span></a>
+          <button onClick={() => scrollTo('#about')}><span className={styles.icon}><FaChevronDown size="70px"/></span></button>
         </div>
         </div>
         <div className={styles.actionButtons}>

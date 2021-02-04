@@ -1,13 +1,14 @@
 import * as React from "react"
 import styles from "../components/index.module.css";
 import Home from "../components/Home/Home";
+import About from "../components/About/About";
 
 const IndexPage=()=>{
   return(
     <div className={styles.main}>
       <Home/>
       <div id="about" className={styles.about}>
-        <h1 className={styles.whiteText}>Who Am I?</h1>
+      <About/>
       </div>
       <div className={styles.exp}>
         <h1 className={styles.whiteText}>Skills</h1>

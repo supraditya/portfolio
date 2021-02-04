@@ -1,0 +1,13 @@
+.whiteText
+{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: -9%;
+    line-height: 115%;
+}
+.about
+{
+    min-height: 100vh;
+    /* max-width: 80%; */
+}

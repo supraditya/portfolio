@@ -55,3 +55,9 @@ body
     padding-left: 5%;
     padding-right: 5%;
 }
+.about
+{
+    border: solid 1px red;
+    max-width: 88%;
+    margin: auto;
+}
