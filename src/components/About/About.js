@@ -18,17 +18,17 @@ const About=()=>{
             </div>
             <div className={styles.aboutRight}>
                 <div className={styles.iconDiv}>
-                    <a href="https://www.linkedin.com/in/supraditya" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/menon_aa_gaya/" target="_blank" rel="noreferrer">
                         <span className={styles.icon}>
                         <FaInstagram size="50px"/>
                         </span>
                     </a>
-                    <a href="https://www.linkedin.com/in/supraditya" target="_blank" rel="noreferrer">
+                    <a href="https://www.youtube.com/channel/UC4J1TSccU4G_CriLC9eoAQw" target="_blank" rel="noreferrer">
                         <span className={styles.icon}>
                         <FaYoutube size="50px"/>
                         </span>
                     </a>
-                    <a href="https://www.linkedin.com/in/supraditya" target="_blank" rel="noreferrer">
+                    <a href="https://soundcloud.com/p-r-y-m-e-v-i-l" target="_blank" rel="noreferrer">
                         <span className={styles.icon}>
                         <FaSoundcloud size="50px"/>
                         </span>

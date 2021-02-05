@@ -9,14 +9,15 @@
     /* width: 60%; */
     text-align: center;
     /* margin-left: auto; */
-    margin-right: auto;
-    margin-bottom: 5%;
+    /* margin-right: auto;
+    margin-bottom: 5%; */
+    margin: auto;
 }
 .whiteText
 {
     color: #ffffff;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 22px;
     /* margin-bottom: -9%; */
     /* line-height: 115%; */
     /* border: solid 1px white; */
@@ -28,6 +29,7 @@
 {
     display: flex;
     min-height: 100vh;
+    /* margin-top: 1%; */
     /* max-width: 80%; */
     /* border: solid 1px red; */
 }
@@ -44,8 +46,12 @@
 .aboutLeft
 {
     /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
     text-align: center;
+    padding-bottom: 3%;
 }
 .aboutRight
 {
