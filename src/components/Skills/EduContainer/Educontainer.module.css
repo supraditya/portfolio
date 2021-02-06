@@ -1,0 +1,44 @@
+.outer
+{
+    /* position: relative; */
+    /* z-index: 1; */
+    border: solid 2px white;
+    background-color: #222222;
+    max-width: 400px;
+    max-height: 150px;
+    padding-top: 1%;
+    /* color: #fff; */
+    border-radius: 0 35px 0 35px;
+}
+.dateText
+{
+    position: relative;
+    z-index: 1;
+    color: #595959;
+    font-size: 76px;
+    /* border: solid 1px red; */
+    text-align: center;
+    margin: 0;
+}
+.instName
+{
+    position: relative;
+    z-index: 2;
+    color: #fa6900;
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: -31%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.fact
+{
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: -5%;
+}

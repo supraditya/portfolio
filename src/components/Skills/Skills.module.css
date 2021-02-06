@@ -1,0 +1,17 @@
+.whiteText
+{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: -9%;
+    line-height: 115%;
+}
+.skills
+{
+    border: solid 1px red;
+    margin-top: -1%;
+    height: 210vh;
+    width: 88%;
+    padding-left: 5%;
+    padding-right: 5%;
+}

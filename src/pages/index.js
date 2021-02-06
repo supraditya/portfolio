@@ -2,6 +2,7 @@ import * as React from "react"
 import styles from "../components/index.module.css";
 import Home from "../components/Home/Home";
 import About from "../components/About/About";
+import Skills from "../components/Skills/Skills";
 
 const IndexPage=()=>{
   return(
@@ -11,7 +12,7 @@ const IndexPage=()=>{
       <About/>
       </div>
       <div id="skills" className={styles.exp}>
-        <h1 className={styles.whiteText}>Skills</h1>
+        <Skills/>
       </div>
       <div className={styles.work}>
         <h1 className={styles.whiteText}>My Work</h1>
