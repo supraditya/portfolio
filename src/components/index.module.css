@@ -27,7 +27,7 @@ body
 {
     background-image: url("../assets/spiral.svg"), url("../assets/self.png");
     background-position-x: 50%, 100%;
-    background-position-y: 0%, 20.75%;
+    background-position-y: 0%, 19.7%;
     background-size: contain, 85vh;
     background-repeat: no-repeat, no-repeat;
     background-position: none, right;
@@ -46,11 +46,6 @@ body
     padding-top: 2%;
     max-width: 88%;
     margin: auto;
-    /* border: solid 1px red; */
-    /* background-image: url('../assets/self.png'); */
-    /* background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain; */
 }
 .exp
 {
@@ -59,7 +54,7 @@ body
     padding-right: 5%; */
     padding-top: 2%;
     max-width: 88%;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
 }
