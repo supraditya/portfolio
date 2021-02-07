@@ -5,13 +5,44 @@
     font-size: 36px;
     margin-bottom: -9%;
     line-height: 115%;
+    text-align: center;
+}
+.whiteTextEdu
+{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 115%;
+    text-align: center;
+    width: 80%;
+    
 }
 .skills
 {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     margin-top: -1%;
     height: 210vh;
     width: 88%;
     padding-left: 5%;
     padding-right: 5%;
+}
+.eduDiv
+{
+    /* border: solid 1px white; */
+    /* margin-top: 10%; */
+    min-height: 70vh;
+    /* max-width: 40%; */
+    /* text-align: center; */
+}
+.skillsDiv
+{
+    margin-top: 3%;
+    min-height: 50vh;
+    max-width: 80%;
+    /* border: solid 1px white; */
+}
+.leftDiv
+{
+    /* border: solid 1px green; */
+    max-width: 45%;
 }
