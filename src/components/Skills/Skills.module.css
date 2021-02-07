@@ -3,7 +3,7 @@
     color: #ffffff;
     font-weight: 500;
     font-size: 36px;
-    margin-bottom: -9%;
+    /* margin-bottom: -9%; */
     line-height: 115%;
     text-align: center;
 }
@@ -45,4 +45,25 @@
 {
     /* border: solid 1px green; */
     max-width: 45%;
+}
+.iconDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: solid 1px white; */
+    text-align: center !important;
+
+}
+.skillIcon
+{
+    font-size: 50px;
+    flex: 0 0 33%;
+    /* margin-left: auto; */
+    /* border-radius: 10px; */
+}
+span img
+{
+    height: 45px;
+    width: 45px;
 }
