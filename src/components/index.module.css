@@ -65,3 +65,32 @@ body
     padding-left: 5%;
     padding-right: 5%;
 }
+.chevDiv
+{
+    text-align: center;
+    margin-top: -10%;
+}
+.chevDiv button
+{
+    margin-top: -2%;
+    border: none;
+    background: transparent;
+}
+.icon
+{
+    transition: all 0.2s;
+    color: #ffffff;
+}
+.icon:hover
+{
+    transition: all 0.2s;
+    color: #fa6900;
+}
+.thinWhiteText
+{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 200;
+    margin-top: 6%;
+
+}

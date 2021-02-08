@@ -3,6 +3,10 @@ import styles from "../components/index.module.css";
 import Home from "../components/Home/Home";
 import About from "../components/About/About";
 import Skills from "../components/Skills/Skills";
+import Work from '../components/Work/Work';
+import {FaChevronDown} from 'react-icons/fa';
+import scrollTo from 'gatsby-plugin-smoothscroll';
+
 
 const IndexPage=()=>{
   return(
@@ -13,9 +17,13 @@ const IndexPage=()=>{
       </div>
       <div id="skills" className={styles.exp}>
         <Skills/>
+        <div className={styles.chevDiv}>
+          <p className={styles.thinWhiteText}>SOME STUFF I'VE MADE</p>
+          <button onClick={() => scrollTo('#work')}><span className={styles.icon}><FaChevronDown size="70px"/></span></button>
+        </div>
       </div>
-      <div className={styles.work}>
-        <h1 className={styles.whiteText}>My Work</h1>
+      <div id="work" className={styles.work}>
+        <Work/>
       </div>
     </div>
 

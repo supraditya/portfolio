@@ -39,7 +39,7 @@ const Home=()=>{
           <a 
           href="https://drive.google.com/file/d/1QuiHhxFY7Xvqwhe3znrNz9iwJAqafh7A/view?usp=sharing" 
           target="_blank" rel="noreferrer" className={styles.buttonStyle}>
-            <FaGoogleDrive size='40px' />&ensp;VIEW RESUME
+            <FaGoogleDrive size='34px' />&ensp;VIEW RESUME
           </a>
         </div>
       </div>
