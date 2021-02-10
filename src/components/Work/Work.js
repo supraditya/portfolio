@@ -13,13 +13,14 @@ const Work=()=>{
                 link="https://github.com/IEEECS-VIT/HackBattle20"
             />
             <WorkContainer 
-            title="Huntr" 
-            desc="Huntr is the outcome of a combat robotics project, developed as an entry for the Robowars tournament organized in VIT, Vellore by RoboVITics, in the 30kg category." 
-            link="https://github.com/supraditya/Huntr"/>
+                title="Huntr" 
+                desc="Huntr is the outcome of a combat robotics project, developed as an entry for the Robowars tournament organized in VIT, Vellore by RoboVITics, in the 30kg category." 
+                link="https://github.com/supraditya/Huntr"
+            />
             <WorkContainer
-            title="Surya NestBuild"
-            desc="Redesigned views for the Surya Nestbuild Ltd.'s website."
-            link="https://github.com/supraditya/suryaRealEstate"
+                title="Surya NestBuild"
+                desc="Redesigned views for the Surya Nestbuild Ltd.'s website."
+                link="https://github.com/supraditya/suryaRealEstate"
             />
         </div>
 

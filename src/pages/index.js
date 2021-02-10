@@ -6,11 +6,17 @@ import Skills from "../components/Skills/Skills";
 import Work from '../components/Work/Work';
 import {FaChevronDown} from 'react-icons/fa';
 import scrollTo from 'gatsby-plugin-smoothscroll';
-
+import { Helmet } from "react-helmet";
 
 const IndexPage=()=>{
   return(
     <div className={styles.main}>
+      <Helmet>
+          <meta charSet="UTF-8" />
+          <title>Aditya Menon</title>
+          <meta name="description" content="My name is Aditya Menon and I am a Frontend Web Developer and a UI/UX Designer. This is my Portfolio Site."></meta>
+          <meta name="keywords" content="Aditya, Menon, Aditya Menon, Web Developer, Frontend Web Developer, IEEECS, IEEE Computer Soceity VIT, VIT, IEEE CS VIT, Frontend Wed Development"></meta>
+      </Helmet>
       <Home/>
       <div id="about" className={styles.about}>
         <About/>
