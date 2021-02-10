@@ -76,6 +76,17 @@ body
     border: none;
     background: transparent;
 }
+.chevDiv2
+{
+    text-align: center;
+    /* margin-top: -10%; */
+}
+.chevDiv2 button
+{
+    margin-top: -2%;
+    border: none;
+    background: transparent;
+}
 .icon
 {
     transition: all 0.2s;
@@ -92,5 +103,4 @@ body
     color: #ffffff;
     font-weight: 200;
     margin-top: 6%;
-
 }

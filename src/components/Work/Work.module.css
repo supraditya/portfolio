@@ -3,7 +3,7 @@
     color: #ffffff;
     font-weight: 500;
     font-size: 36px;
-    margin-bottom: -9%;
+    /* margin-bottom: -9%; */
     line-height: 115%;
     text-align: center;
 }
@@ -11,4 +11,6 @@
 {
     border: solid 1px white;
     height: 190vh;
+    /* color: white; */
+    /* padding-top: 10%; */
 }

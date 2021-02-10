@@ -1,6 +1,20 @@
 * {
     box-sizing: border-box;
   }
+
+  @media only screen and (max-width: 1530px) {
+    .expHeader:first-child
+    {
+        /* color: #fa6900; */
+        font-size: 14px;
+    }
+    p
+    {
+      font-size: 12px;
+    }
+ 
+  }
+
   
   
   /* The actual timeline (the vertical ruler) */
@@ -17,7 +31,7 @@
     width: 6px;
     background-color: white;
     top: 0;
-    bottom: 0;
+    bottom: 25%;
     left: 50%;
     margin-left: -3px;
   }
@@ -28,6 +42,7 @@
     position: relative;
     background-color: inherit;
     width: 50%;
+    top: 50%;
     left: 0%;
   }
   /* Container around content */

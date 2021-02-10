@@ -17,7 +17,7 @@ const IndexPage=()=>{
       </div>
       <div id="skills" className={styles.exp}>
         <Skills/>
-        <div className={styles.chevDiv}>
+        <div className={styles.chevDiv2}>
           <p className={styles.thinWhiteText}>SOME STUFF I'VE MADE</p>
           <button onClick={() => scrollTo('#work')}><span className={styles.icon}><FaChevronDown size="70px"/></span></button>
         </div>

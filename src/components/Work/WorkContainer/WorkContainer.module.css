@@ -1,0 +1,74 @@
+.outer
+{
+    color: white;
+    border: solid 1px red;
+    max-width: 80%;
+    margin: 2% auto 2% auto;
+    min-height: 220px;
+    display: flex;
+}
+.left
+{
+    transition: all 0.2s;
+    position: relative;
+    z-index: 1;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    /* border: solid 1px red; */
+    width: 50%;
+    min-height: 100%;
+}
+.right
+{
+    transition: all 0.2s;
+    position: relative;
+    z-index: 1;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    /* border: solid 1px red; */
+    width: 50%;
+    min-height: 100%;
+}
+.outer:hover>.right
+{
+    transition: all 0.2s;
+    transform: translate(-50%,0);
+    border-color: #fa6900;
+}
+.outer:hover>.left
+{
+    transition: all 0.2s;
+    transform: translate(50%,0);
+    border-color: #fa6900;
+}
+.outer:hover>.left>p
+{
+    transition: all 0.2s;
+    display: flex !important;
+}
+/* .outer:hover>.content
+{
+    transition: all 0.2s;
+    display: flex !important;
+}
+.content
+{
+    transition: all 0.2s;
+    position: relative;
+    z-index: 2;
+    border: solid 1px green;
+    width: 110%;
+    text-align: center;
+    display: none;
+    align-items: center;
+} */
+.left>p
+{
+    transition: all 0.2s;
+    display: none;
+    color: white;
+    justify-content: center;
+    /* text-align: center; */
+    /* border: solid 1px red; */
+    align-items: center;
+}
