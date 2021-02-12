@@ -16,6 +16,7 @@
 }
 .navButton
 {
+    transition: all 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,16 +25,19 @@
     color: #222;
     border-radius:10px 0px 0px 10px;
     height: 60px;
+    border-right: #000;
     width: 60px;
 }
 .line1
 {
+    transition: all 0.3s ease-in-out;
     border-top: 3px solid #222;
     width: 80%;
     height: 8px;
 }
 .line2
 {
+    transition: all 0.3s ease-in-out;
     border-bottom: 3px solid #222;
     width: 80%;
     height: 8px;
