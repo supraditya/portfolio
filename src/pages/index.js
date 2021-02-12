@@ -4,6 +4,7 @@ import Home from "../components/Home/Home";
 import About from "../components/About/About";
 import Skills from "../components/Skills/Skills";
 import Work from '../components/Work/Work';
+import Sidebar from '../components/Sidebar/Sidebar';
 import {FaChevronDown} from 'react-icons/fa';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 import { Helmet } from "react-helmet";
@@ -17,6 +18,7 @@ const IndexPage=()=>{
           <meta name="description" content="My name is Aditya Menon and I am a Frontend Web Developer and a UI/UX Designer. This is my Portfolio Site."></meta>
           <meta name="keywords" content="Aditya, Menon, Aditya Menon, Web Developer, Frontend Web Developer, IEEECS, IEEE Computer Soceity VIT, VIT, IEEE CS VIT, Frontend Wed Development"></meta>
       </Helmet>
+      <Sidebar/>
       <Home/>
       <div id="about" className={styles.about}>
         <About/>

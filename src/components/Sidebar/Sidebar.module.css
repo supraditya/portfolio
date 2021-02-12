@@ -1,0 +1,53 @@
+.outer
+{
+    transition: all 0.3s ease-in-out;
+    color: white;
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    height: 100vh;
+    /* margin-top: -1.5%; */
+    /* max-width: 75%; */
+    /* width: 50%; */
+    display: flex;
+    /* border: solid 1px red; */
+    align-items: center;
+    transform: translate(500px, 0);
+}
+.navButton
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #222;
+    border-radius:10px 0px 0px 10px;
+    height: 60px;
+    width: 60px;
+}
+.line1
+{
+    border-top: 3px solid #222;
+    width: 80%;
+    height: 8px;
+}
+.line2
+{
+    border-bottom: 3px solid #222;
+    width: 80%;
+    height: 8px;
+}
+.whiteText
+{
+    color: white;
+}
+.sidebarOuter
+{
+    color: white;
+    border: solid 1px white;
+    min-width: 500px;
+    height: 100vh;
+    border-radius: 50%;
+    background-color: #000;
+}
