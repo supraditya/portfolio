@@ -19,7 +19,9 @@ const IndexPage=()=>{
           <meta name="keywords" content="Aditya, Menon, Aditya Menon, Web Developer, Frontend Web Developer, IEEECS, IEEE Computer Soceity VIT, VIT, IEEE CS VIT, Frontend Wed Development"></meta>
       </Helmet>
       <Sidebar/>
-      <Home/>
+      <div id="home">
+        <Home/>
+      </div>
       <div id="about" className={styles.about}>
         <About/>
       </div>

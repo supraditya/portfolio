@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styles from './Sidebar.module.css';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 
 class Sidebar extends Component{
@@ -13,6 +14,7 @@ class Sidebar extends Component{
         // line2StyleTranslate: "",
         sidebarCollapsed: true,
         sidebar: "",
+        overlayStyle:"",
     }
     sidebarHandler=()=>{
         if(this.state.sidebarCollapsed)
@@ -28,6 +30,7 @@ class Sidebar extends Component{
                 // line2StyleTranslate: "translate(-5px, 6px)",
                 sidebarCollapsed: false,
                 sidebar: "translate(250px, 0)",
+                overlayStyle:"100%",
             });
         }
         else
@@ -43,22 +46,34 @@ class Sidebar extends Component{
                 // line2StyleTranslate: "translate(0px, 0px)",
                 sidebarCollapsed: true,
                 sidebar: "translate(500px, 0)",
+                overlayStyle:"0",
             });
         }
-
+    }
+    scrollAndClose=(toDiv)=>{
+        scrollTo(toDiv);
+        this.sidebarHandler();
     }
     render()
     {
         return(
-            <div style={{transform: this.state.sidebar}} className={styles.outer}>
-                <button style={{backgroundColor: this.state.buttonStyle}} onClick={()=>this.sidebarHandler()} className={styles.navButton}>
-                    <div style={{borderColor: this.state.line1StyleColor, transform: this.state.line1StyleAngle}} className={styles.line1}></div>
-                    <div style={{borderColor: this.state.line2StyleColor, transform: this.state.line2StyleAngle}} className={styles.line2}></div>
-                </button>
-                <div className={styles.sidebarOuter}>
-                    {this.state.sidebarCollapsed}
+            <div className={styles.overlay} style={{width: this.state.overlayStyle}}>
+                <div style={{transform: this.state.sidebar}} className={styles.outer}>
+                    <button style={{backgroundColor: this.state.buttonStyle}} onClick={()=>this.sidebarHandler()} className={styles.navButton}>
+                        <div style={{borderColor: this.state.line1StyleColor, transform: this.state.line1StyleAngle}} className={styles.line1}></div>
+                        <div style={{borderColor: this.state.line2StyleColor, transform: this.state.line2StyleAngle}} className={styles.line2}></div>
+                    </button>
+                    <div className={styles.sidebarOuter}>
+                        <div className={styles.sidebarLinks}>
+                            <p onClick={() => this.scrollAndClose('#home')}>Home</p>
+                            <p onClick={() => this.scrollAndClose('#about')}>Who Am I?</p>
+                            <p onClick={() => this.scrollAndClose('#skills')}>Skills/Experience</p>
+                            <p onClick={() => this.scrollAndClose('#work')}>My Work</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         );
 
     }

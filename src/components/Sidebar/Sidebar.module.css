@@ -5,8 +5,8 @@
     position: fixed;
     z-index: 100;
     right: 0;
-    height: 100vh;
-    /* margin-top: -1.5%; */
+    height: 103vh;
+    /* margin-top: -0.3%; */
     /* max-width: 75%; */
     /* width: 50%; */
     display: flex;
@@ -25,19 +25,22 @@
     color: #222;
     border-radius:10px 0px 0px 10px;
     height: 60px;
-    border-right: #000;
+    margin-right: -0.2%;
+    border-right: none !important;
     width: 60px;
+    cursor: pointer;
+    border: solid 2px white;
 }
 .line1
 {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     border-top: 3px solid #222;
     width: 80%;
     height: 8px;
 }
 .line2
 {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     border-bottom: 3px solid #222;
     width: 80%;
     height: 8px;
@@ -49,9 +52,44 @@
 .sidebarOuter
 {
     color: white;
-    border: solid 1px white;
+    border: solid 2px white;
     min-width: 500px;
     height: 100vh;
     border-radius: 50%;
     background-color: #000;
+}
+.sidebarLinks
+{
+    /* transition: all 0.1s ease-in-out; */
+    color: white;
+    cursor: pointer;
+    /* border: solid 1px white; */
+    height: 100vh;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: center;
+}
+.sidebarLinks p
+{
+    font-size: 22px;
+    user-select: none;
+}
+.sidebarLinks p:hover
+{
+    transition: all 0.1s ease-in-out;
+    color: #fa6900;
+}
+.overlay
+{
+    transition: all 0.3s ease-in-out;
+    /* border: solid 1px white; */
+    z-index: 100;
+    height: 103vh;
+    /* width: 100%; */
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    margin-top: -1.5%;
 }
