@@ -1,3 +1,44 @@
+
+@media only screen and (max-width: 950px)
+{
+    .whiteText
+    {
+        font-size: 12px !important;
+    }
+    .rightContent
+    {
+        font-size: 36px !important;
+    }
+    .outer
+    {
+        min-height: 290px !important;
+        margin: 8% auto 8% auto !important;
+    }
+    .outer:hover>.left
+    {
+        transform: translate(0%,0) !important;
+    }
+    .outer:hover>.right
+    {
+        transform: translate(0%,0) !important;
+    }
+    .leftContent
+    {
+        flex-direction: column !important;
+        width: 200% !important;
+        /* transform: translate(50%,0) !important; */
+    }
+    .orangeText
+    {
+        line-height: 100% !important;
+        margin-bottom: -3% !important;
+    }
+    .rightContent
+    {
+        /* border: solid 1px white; */
+        width: 200% !important;
+    }
+}
 .outer
 {
     color: white;
