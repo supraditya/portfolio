@@ -1,9 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@200;300;500;600;800&display=swap');
+@media only screen and (max-width: 1200px)
+{
+    .main
+    {
+        background-size: contain, 80vh !important;
+        background-position-y: 0%, 19.5% !important;
+    }
+}
+@media only screen and (max-width: 1000px)
+{
+    .main
+    {
+        background-image: url("../assets/spiral.svg"), url("../assets/self-mobile.png") !important;
+        background-size: contain, 60vh !important;
+        background-position-x: 50%,50% !important;
+        background-position-y: 0%,19.5% !important;
+    }
+}
 @media only screen and (max-width: 950px)
 {
     .main
     {
         background-repeat: repeat-y, no-repeat !important;
+        /* background-size: contain, 65vh !important; */
     }
 }
 
