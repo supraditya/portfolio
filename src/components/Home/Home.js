@@ -37,7 +37,7 @@ const Home=()=>{
               <FaGoogleDrive/>&ensp;VIEW RESUME
             </a>
         </div>
-        <button className={styles.mobileChevDiv} onClick={() => scrollTo('#about')}><span className={styles.icon}><FaChevronDown size="50px"/></span></button>
+        <button className={styles.mobileChevDiv} onClick={() => scrollTo('#about')}><span className={styles.icon}><FaChevronDown size="60px"/></span></button>
       </div>
     )
 }

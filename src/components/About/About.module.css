@@ -35,7 +35,7 @@
     .iconDivMobile
     {
         /* border: solid 1px white; */
-        padding-top: -2%;
+        padding-top: -3%;
         display: flex !important;
         align-items: center;
         justify-content: space-around;
@@ -48,6 +48,7 @@
 @media only screen and (max-width: 500px) {
     .whiteText
     {
+        padding-top: 10% !important;
         font-size: 14px !important;
     }
 }
