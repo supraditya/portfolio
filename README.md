@@ -7,7 +7,7 @@
   Gatsby minimal starter
 </h1>
 
-## Project Deployed At: https://aditya-menon.netlify.app
+## Visit at https://www.supraditya.com
 
 ## 🚀 Quick start
 
