@@ -32,7 +32,7 @@ const Skills=()=>{
                     <EduContainer start="2016" end="2018" fact="Computer Science: 183/200" instName="PACE Junior Science College"/>
                     <EduContainer start="2009" end="2016" fact="Computer Science: 100/100" instName="Smt. Sulochanadevi Singhania School"/>
                 </div>
-                <div className={styles.thinWhiteText}>(Scroll Here to See More)</div>
+                {/* <div className={styles.thinWhiteText}>(Scroll Here to See More)</div> */}
             </div>
             <div className={styles.rightDiv}>
                 <h1 className={styles.whiteText}>Experience</h1>

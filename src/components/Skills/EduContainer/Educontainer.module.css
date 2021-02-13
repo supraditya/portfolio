@@ -1,3 +1,61 @@
+@media only screen and (max-width: 1000px) {
+    .dateText
+    {
+        font-size: 56px !important;
+    }
+    .instName
+    {
+        font-size: 18px !important;
+    }
+    .fact
+    {
+        font-size: 16px !important;
+    }
+    .outer
+    {
+        padding: 6% 2% 6% 2% !important;
+
+    }
+}
+@media only screen and (max-width: 780px) {
+    .outer
+    {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+/* Edu styling for iphone 6/7/8 */
+@media only screen and (max-width: 400px) {
+    .dateText
+    {
+        font-size: 48px !important;
+    }
+    .instName
+    {
+        font-size: 14px !important;
+    }
+    .fact
+    {
+        font-size: 12px !important;
+    }
+}
+
+/* For iphone 5 */
+@media only screen and (max-width: 360px) {
+    .dateText
+    {
+        font-size: 42px !important;
+    }
+    .instName
+    {
+        font-size: 12px !important;
+    }
+    .fact
+    {
+        font-size: 10px !important;
+    }
+}
 .outer
 {
     /* position: relative; */

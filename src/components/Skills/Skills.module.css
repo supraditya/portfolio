@@ -1,7 +1,33 @@
 @media only screen and (max-width: 1200px) {
     .skills
     {
-        overflow-y: scroll;
+        /* overflow-y: scroll; */
+        flex-direction: column !important;
+        align-items: center;
+        /* border: solid 1px white; */
+    }
+    .leftDiv
+    {
+        min-width: 100% !important;
+        display: flex;
+        align-items: baseline;
+        /* border: solid 1px red; */
+    }
+    .rightDiv
+    {
+        width: 100% !important;
+        /* float: right; */
+    }
+    .eduDiv
+    {
+        /* margin-left: -5% !important; */
+        /* border: solid 1px white; */
+        width: 50%;
+    }
+    .skillsDiv
+    {
+        width: 50%;
+        /* border: solid 1px white; */
     }
     .thinWhiteText
     {
@@ -9,6 +35,29 @@
     }
 }
 
+@media only screen and (max-width: 780px) {
+    .leftDiv
+    {
+        flex-direction: column;
+        align-items: center !important;
+        /* border: solid 1px white; */
+    }
+    .eduDiv
+    {
+        /* border: solid 1px red; */
+        /* display: flex; */
+        /* align-items: center; */
+        width: 100% !important;
+    }
+    .skillsDiv
+    {
+        width: 100% !important;
+    }
+    .whiteTextEdu
+    {
+        width: 100% !important;
+    }
+}
 .whiteText
 {
     color: #ffffff;
