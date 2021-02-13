@@ -14,8 +14,43 @@
     }
  
   }
+  @media only screen and (max-width: 1200px) {
+    .chevDivMobile
+    {
+      display: flex !important;
+      flex-direction: column;
+      align-items: center;
+      /* background-color: white; */
+      /* text-align: center; */
+      color: white;
+    }
+    .chevDivMobile button
+    {
+      transform: all 0.2s;
+      background-color: transparent;
+      color: white;
+      border: none;
+    }
+    .chevDivMobile button:hover
+    {
+      transition: all 0.2s;
+      color: #fa6900;
+    }
+    .thinWhiteText
+    {
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 200;
+        margin-top: 6%;
+    }
+  }
 
-  
+  /* @media only screen and (max-width: 600px) {
+    .timeline
+    {
+      display: none !important;
+    }
+  } */
   
   /* The actual timeline (the vertical ruler) */
   .timeline {
@@ -135,27 +170,27 @@
   /* Full-width containers */
     .containerLeft {
       width: 100%;
-      padding-left: 40px;
+      padding-left: 60px;
       padding-right: 25px;
     }
   
   /* Full-width containers */
     .containerRight {
       width: 100%;
-      padding-left: 10px;
+      padding-left: 60px;
       padding-right: 25px;
     }
   
   /* Make sure that all arrows are pointing leftwards */
     .containerLeft::before {
-      left: 60px;
+      left: 50px;
       border: medium solid #222;
       border-width: 10px 10px 10px 0;
       border-color: transparent #222 transparent transparent;
     }
   /* Make sure that all arrows are pointing leftwards */
     .containerRight::before {
-      left: 60px;
+      left: 50px;
       border: medium solid #222;
       border-width: 10px 10px 10px 0;
       border-color: transparent #222 transparent transparent;
@@ -195,3 +230,7 @@
     display: inline;
     max-width: 70%;
   }
+.chevDivMobile
+{
+  display: none;
+}

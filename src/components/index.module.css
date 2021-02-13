@@ -6,6 +6,14 @@
         background-size: contain, 80vh !important;
         background-position-y: 0%, 19.5% !important;
     }
+    .chevDiv2
+    {
+        display: none !important;
+    }
+    .work
+    {
+        margin-top: 12% !important;
+    }
 }
 @media only screen and (max-width: 1000px)
 {
@@ -15,6 +23,10 @@
         background-size: contain, 78vh !important;
         background-position-x: 50%,50% !important;
         background-position-y: 0%,19% !important;
+    }
+    .work
+    {
+        margin-top: 20% !important;
     }
 }
 @media only screen and (max-width: 600px)
@@ -33,7 +45,56 @@
         /* background-size: contain, 65vh !important; */
     }
 }
+@media only screen and (max-width: 900px)
+{
+    .work
+    {
+        margin-top: 50% !important;
+    }
+}
+@media only screen and (max-width: 780px)
+{
+    .work
+    {
+        margin-top: 120% !important;
+    }
+}
+@media only screen and (max-width: 650px)
+{
+    .work
+    {
+        margin-top: 150% !important;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .work
+    {
+        margin-top: 80% !important;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .work
+    {
+        margin-top: 140% !important;
+    }
+}
 
+@media only screen and (max-width: 400px)
+{
+    .work
+    {
+        margin-top: 200% !important;
+    }
+}
+@media only screen and (max-width: 350px)
+{
+    .work
+    {
+        margin-top: 400% !important;
+    }
+}
 *:focus
 {
     outline:none;
@@ -85,6 +146,7 @@ body
 .exp
 {
     height: 210vh;
+    max-height: 210vh;
     /* padding-left: 5%;
     padding-right: 5%; */
     padding-top: 2%;
@@ -95,6 +157,7 @@ body
 }
 .work
 {
+    /* border: solid 1px white; */
     height: 190vh;
     width: 100%;
     padding-left: 5%;

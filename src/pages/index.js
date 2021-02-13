@@ -33,7 +33,7 @@ const IndexPage=()=>{
         </div>
       </div>
       <div id="work" className={styles.work}>
-        {/* <Work/> */}
+        <Work/>
       </div>
     </div>
 
