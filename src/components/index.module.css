@@ -36,6 +36,10 @@
         background-size: contain, 60vh !important;
         background-position-y: 0%,16.5% !important;
     }
+    .footerLinks
+    {
+        width: 45% !important;
+    }
 }
 @media only screen and (max-width: 950px)
 {
@@ -206,4 +210,22 @@ body
     color: #ffffff;
     font-weight: 200;
     margin-top: 6%;
+}
+.footer
+{
+    color: white;
+    /* border: solid 1px white; */
+    text-align: center;
+    /* margin-top: -15% !important; */
+}
+.footerLinks
+{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    justify-content: space-between;
+}
+.footer p
+{
+    font-size: 16px;
 }

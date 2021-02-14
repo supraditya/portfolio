@@ -5,7 +5,8 @@ import About from "../components/About/About";
 import Skills from "../components/Skills/Skills";
 import Work from '../components/Work/Work';
 import Sidebar from '../components/Sidebar/Sidebar';
-import {FaChevronDown} from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaChevronDown} from 'react-icons/fa';
+import {IoMail} from 'react-icons/io5';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 import { Helmet } from "react-helmet";
 
@@ -34,6 +35,26 @@ const IndexPage=()=>{
       </div>
       <div id="work" className={styles.work}>
         <Work/>
+      </div>
+      <div className={styles.footer}>
+        <div className={styles.footerLinks}>
+        <a name="linkedin-link" href="https://www.linkedin.com/in/supraditya" target="_blank" rel="noreferrer">
+              <span className={styles.icon}>
+                <FaLinkedin size="40px"/>
+              </span>
+            </a>
+            <a name="github-link" href="https://www.github.com/supraditya" target="_blank" rel="noreferrer">
+              <span className={styles.icon}>
+                <FaGithub size="40px"/>
+              </span>
+            </a>
+            <a name="mailto-link" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=aditya300100@gmail.com&tf=1" target="_blank" rel="noreferrer">
+              <span className={styles.icon}>
+                <IoMail size="40px"/>
+              </span>
+            </a>
+        </div>
+        <p>Made with ❤️ (and 💅) by <span className={styles.orangeText}>Aditya Menon</span> (supraditya)</p>
       </div>
     </div>
 
