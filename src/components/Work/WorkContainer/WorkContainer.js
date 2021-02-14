@@ -11,7 +11,7 @@ const WorkContainer=(props)=>{
                         <p className={styles.whiteText}>{props.desc}</p>
                     </div>
                     <div className={styles.contentLeftButton}>
-                        <a href={props.link} target="_blank" rel="norefferer"><FaGithub size="16px"/>&nbsp;SOURCE</a>
+                        <a href={props.link} target="_blank" rel="noreferrer"><FaGithub size="16px"/>&nbsp;SOURCE</a>
                     </div>
                 </div>
             </div>
