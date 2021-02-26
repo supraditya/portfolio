@@ -28,7 +28,7 @@ const Skills=()=>{
                 </div>
                 <div className={styles.eduDiv}>
                     <h1 className={styles.whiteTextEdu}>Education</h1>
-                    <EduContainer start="2018" end="NOW" fact="CGPA(4th Sem): 8.31/10" instName="VIT Vellore"/>
+                    <EduContainer start="2018" end="NOW" fact="CGPA(Upto 5th Sem): 8.41/10" instName="VIT Vellore"/>
                     <EduContainer start="2016" end="2018" fact="Computer Science: 183/200" instName="PACE Junior Science College"/>
                     <EduContainer start="2009" end="2016" fact="Computer Science: 100/100" instName="Smt. Sulochanadevi Singhania School"/>
                 </div>

@@ -5,7 +5,7 @@ import About from "../components/About/About";
 import Skills from "../components/Skills/Skills";
 import Work from '../components/Work/Work';
 import Sidebar from '../components/Sidebar/Sidebar';
-import { FaLinkedin, FaGithub, FaChevronDown} from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaChevronDown, FaInstagram, FaYoutube, FaSoundcloud} from 'react-icons/fa';
 import {IoMail} from 'react-icons/io5';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 import { Helmet } from "react-helmet";
@@ -40,21 +40,36 @@ const IndexPage=()=>{
         <div className={styles.footerLinks}>
         <a name="linkedin-link" href="https://www.linkedin.com/in/supraditya" target="_blank" rel="noreferrer">
               <span className={styles.icon}>
-                <FaLinkedin size="40px"/>
+                <FaLinkedin size="30px"/>
               </span>
             </a>
             <a name="github-link" href="https://www.github.com/supraditya" target="_blank" rel="noreferrer">
               <span className={styles.icon}>
-                <FaGithub size="40px"/>
+                <FaGithub size="30px"/>
               </span>
             </a>
             <a name="mailto-link" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=aditya300100@gmail.com&tf=1" target="_blank" rel="noreferrer">
               <span className={styles.icon}>
-                <IoMail size="40px"/>
+                <IoMail size="30px"/>
               </span>
             </a>
+            <a href="https://www.instagram.com/menon_aa_gaya/" target="_blank" rel="noreferrer">
+                <span className={styles.icon}>
+                <FaInstagram size="30px"/>
+                </span>
+            </a>
+            <a href="https://www.youtube.com/channel/UC4J1TSccU4G_CriLC9eoAQw" target="_blank" rel="noreferrer">
+                <span className={styles.icon}>
+                <FaYoutube size="30px"/>
+                </span>
+            </a>
+            <a href="https://soundcloud.com/p-r-y-m-e-v-i-l" target="_blank" rel="noreferrer">
+                <span className={styles.icon}>
+                <FaSoundcloud size="30px"/>
+                </span>
+            </a>
         </div>
-        <p>Made with ❤️ (and 💅) by <span className={styles.orangeText}>Aditya Menon</span> (supraditya)</p>
+        <p>Made with ❤️ by <span className={styles.orangeText}>Aditya Menon</span> (supraditya)</p>
       </div>
     </div>
 

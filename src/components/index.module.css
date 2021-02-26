@@ -27,6 +27,7 @@
     .work
     {
         margin-top: 20% !important;
+        height: 210vh !important;
     }
 }
 @media only screen and (max-width: 600px)
@@ -38,7 +39,7 @@
     }
     .footerLinks
     {
-        width: 45% !important;
+        width: 65% !important;
     }
 }
 @media only screen and (max-width: 950px)
@@ -132,8 +133,8 @@ body
 {
     background-image: url("../assets/spiral.svg"), url("../assets/self.png");
     background-position-x: 50%, 100%;
-    background-position-y: 0%, 19.7%;
-    background-size: contain, 85vh;
+    background-position-y: 0%, 19.1%;
+    background-size: contain, 87vh;
     background-repeat: no-repeat, no-repeat;
     background-position: none, right;
     background-attachment: none, fixed;
@@ -143,7 +144,7 @@ body
 }
 .about
 {
-    margin-top: 5% !important;
+    margin-top: 6% !important;
     /* height: 95vh; */
     /* width: 100%; */
     padding-left: 5%;
@@ -167,7 +168,7 @@ body
 .work
 {
     /* border: solid 1px white; */
-    height: 190vh;
+    height: 210vh;
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -221,7 +222,7 @@ body
 .footerLinks
 {
     display: flex;
-    width: 30%;
+    width: 35%;
     margin: auto;
     justify-content: space-between;
 }

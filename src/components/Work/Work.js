@@ -22,6 +22,11 @@ const Work=()=>{
                 desc="Redesigned views for the Surya Nestbuild Ltd.'s website."
                 link="https://github.com/supraditya/suryaRealEstate"
             />
+            <WorkContainer
+                title="Fire Detection System"
+                desc="A CNN Model trained on a dataset of images containing fire, using our pre-processing algorithm that increases real-time flame detection accuracy by almost 12%"
+                link="https://github.com/supraditya/FireDetector"
+            />
         </div>
 
     );

@@ -5,11 +5,11 @@
     }
     .instName
     {
-        font-size: 18px !important;
+        font-size: 16px !important;
     }
     .fact
     {
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
     .outer
     {
@@ -38,6 +38,10 @@
     .fact
     {
         font-size: 12px !important;
+    }
+    .instName:nth-child(3)
+    {
+        font-size: 10px !important;
     }
 }
 
