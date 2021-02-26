@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import { FaLinkedin, FaGithub, FaChevronDown, FaGoogleDrive } from 'react-icons/fa';
 import {IoMail} from 'react-icons/io5';
 import scrollTo from 'gatsby-plugin-smoothscroll';
+
 const Home=()=>{
     return(
         <div className={styles.home}>

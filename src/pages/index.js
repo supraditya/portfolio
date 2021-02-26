@@ -13,6 +13,7 @@ import { Helmet } from "react-helmet";
 const IndexPage=()=>{
   return(
     <div className={styles.main}>
+      
       <Helmet>
           <meta charSet="UTF-8" />
           <title>Aditya Menon</title>
