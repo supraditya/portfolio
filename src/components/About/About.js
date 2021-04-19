@@ -9,7 +9,7 @@ const About=()=>{
             <div className={styles.aboutLeft}>
                 <h1 className={styles.whiteTextHeader}>Who Am <span className={styles.orangeTextHeader}>I</span>?</h1>
                 <p className={styles.whiteText}>
-                I, <span className={styles.orangeText}>Aditya Menon</span>, am a 3rd Year Computer Science student here at VIT Vellore.<br></br><br></br> I have been working as a self-taught Frontend Web Developer and Designer for <span className={styles.orangeText}>14</span> months and have completed an internship, along with several projects for my Student Organisation: <span className={styles.orangeText}>IEEE-CS VIT</span>.<br></br><br></br> Apart from Web Development, I occasionally produce music, sketch comedy and standups since you either gotta be funny or good-looking (I’m neither)
+                I, <span className={styles.orangeText}>Aditya Menon</span>, am a 3rd Year Computer Science student at VIT Vellore.<br></br><br></br> I have been working as a self-taught Frontend Web Developer and Designer for <span className={styles.orangeText}>14</span> months and have completed an internship, along with several projects for my Student Organisation: <span className={styles.orangeText}>IEEE-CS VIT</span>.<br></br><br></br> Apart from Web Development, I occasionally produce music, sketch comedy and standups since you either gotta be funny or good-looking (I’m neither)
                 </p>
                 <div className={styles.iconDivMobile}>
                     <a href="https://www.instagram.com/menon_aa_gaya/" target="_blank" rel="noreferrer">

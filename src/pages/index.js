@@ -70,7 +70,7 @@ const IndexPage=()=>{
                 </span>
             </a>
         </div>
-        <p>Made with ❤️ by <span className={styles.orangeText}>Aditya Menon</span> (supraditya)</p>
+        <p>Made (❤️ is for nerds) by <span className={styles.orangeText}>Aditya Menon</span> (supraditya)</p>
       </div>
     </div>
 

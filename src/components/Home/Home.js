@@ -33,7 +33,7 @@ const Home=()=>{
             </a>
             </div>
             <a 
-            href="https://drive.google.com/file/d/1QuiHhxFY7Xvqwhe3znrNz9iwJAqafh7A/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1-X50yiYYtas-cDth5M5blFgiPzac1gJK/view?usp=sharing" 
             target="_blank" rel="noreferrer" className={styles.buttonStyle}>
               <FaGoogleDrive/>&ensp;VIEW RESUME
             </a>
