@@ -18,7 +18,13 @@ const IndexPage=()=>{
           <meta charSet="UTF-8" />
           <title>Aditya Menon</title>
           <meta name="description" content="My name is Aditya Menon and I am a Frontend Web Developer and a UI/UX Designer. This is my Portfolio Site."></meta>
-          <meta name="keywords" content="Aditya, Menon, Aditya Menon, Web Developer, Frontend Web Developer, IEEECS, IEEE Computer Soceity VIT, VIT, IEEE CS VIT, Frontend Wed Development"></meta>
+          <meta name="keywords" content="Aditya, Menon, Aditya Menon, supraditya, Supraditya, Web Developer, Frontend Web Developer, IEEECS, IEEE-CS, IEEE Computer Society VIT, VIT, IEEE CS VIT, Frontend Web Development"></meta>
+          <meta property="og:title" content="Aditya Menon, Web Developer and Designer" />
+          <meta property="og:description" content="My name is Aditya Menon and I am a Frontend Web Developer and a UI/UX Designer. This is my Portfolio Site." />
+          <meta property="og:url" content="https://www.supraditya.com/" />
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content="src\assets\my-logo.svg"/>
+      
       </Helmet>
       <Sidebar/>
       <div id="home">
