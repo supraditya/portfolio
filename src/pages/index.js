@@ -10,6 +10,11 @@ import {IoMail} from 'react-icons/io5';
 import scrollTo from 'gatsby-plugin-smoothscroll';
 import { Helmet } from "react-helmet";
 
+
+const fav={
+  image: require('../assets/my-logo.svg'),
+}
+
 const IndexPage=()=>{
   return(
     <div className={styles.main}>
@@ -18,12 +23,12 @@ const IndexPage=()=>{
           <meta charSet="UTF-8" />
           <title>Aditya Menon</title>
           <meta name="description" content="My name is Aditya Menon and I am a Frontend Web Developer and a UI/UX Designer. This is my Portfolio Site."></meta>
-          <meta name="keywords" content="Aditya, Menon, Aditya Menon, supraditya, Supraditya, Web Developer, Frontend Web Developer, IEEECS, IEEE-CS, IEEE Computer Society VIT, VIT, IEEE CS VIT, Frontend Web Development"></meta>
+          <meta name="keywords" content="Aditya, Menon, Aditya Menon, supraditya, Supraditya, Web Developer, Frontend Web Developer, IEEECS, IEEE-CS, IEEE Computer Society VIT, VIT, IEEE CS VIT, Frontend Web Development, freehongkong, 4/6/1989, pooh"></meta>
           <meta property="og:title" content="Aditya Menon, Web Developer and Designer" />
           <meta property="og:description" content="My name is Aditya Menon and I am a Frontend Web Developer and a UI/UX Designer. This is my Portfolio Site." />
           <meta property="og:url" content="https://www.supraditya.com/" />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content="src\assets\my-logo.svg"/>
+          <meta property="og:image" content={fav.image}/>
       
       </Helmet>
       <Sidebar/>
