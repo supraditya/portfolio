@@ -18,7 +18,7 @@ const Work=()=>{
                 title="HackBattle '20"
                 desc="Landing Page for Hackbattle '20, a 36-Hour Multidisciplinary Hackathon. Hosted at hackbattle.ieeecsvit.com"
                 link="https://github.com/IEEECS-VIT/HackBattle20"
-                link2="https://www.hackbattle.ieeecsvit.com"
+                link2="https://hackbattle.ieeecsvit.com"
             />
             <WorkContainerSite
                 title="MOR TechFab"
