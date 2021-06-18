@@ -38,6 +38,7 @@ const IndexPage=()=>{
       <div id="about" className={styles.about}>
         <About/>
       </div>
+      <div className={styles.skillsWorkFooterContainer}>
       <div id="skills" className={styles.exp}>
         <Skills/>
         <div className={styles.chevDiv2}>
@@ -83,6 +84,8 @@ const IndexPage=()=>{
         </div>
         <p>Made (❤️ is for nerds) by <span className={styles.orangeText}>Aditya Menon</span> (supraditya)</p>
       </div>
+      </div>
+
     </div>
 
   )

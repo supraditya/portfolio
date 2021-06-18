@@ -4,7 +4,7 @@
     .main
     {
         background-size: contain, 80vh !important;
-        background-position-y: 0%, 19.5% !important;
+        /* background-position-y: 0%, 16.5% !important; */
     }
     .chevDiv2
     {
@@ -15,6 +15,12 @@
         margin-top: 12% !important;
     }
 }
+/* @media only screen and (max-width: 1100px){
+    .main
+    {
+        background-position-y: 0%, 19.5% !important;
+    }
+} */
 @media only screen and (max-width: 1000px)
 {
     .main
@@ -22,12 +28,22 @@
         background-image: url("../assets/spiral.svg"), url("../assets/self-mobile.png") !important;
         background-size: contain, 78vh !important;
         background-position-x: 50%,50% !important;
-        background-position-y: 0%,19% !important;
+        background-position-y: 0%,104vh !important;
     }
     .work
     {
         margin-top: 20% !important;
-        height: 210vh !important;
+        /* height: 260vh !important; */
+    }
+}
+@media only screen and (min-height: 750px)
+{
+    .main
+    {
+        /* background-image: url("../assets/spiral.svg"), url("../assets/self-mobile.png") !important;
+        background-size: contain, 78vh !important;
+        background-position-x: 50%,50% !important; */
+        background-position-y: 0%,100vh !important;
     }
 }
 @media only screen and (max-width: 600px)
@@ -35,7 +51,7 @@
     .main
     {
         background-size: contain, 60vh !important;
-        background-position-y: 0%,16.5% !important;
+        /* background-position-y: 0%,15% !important; */
     }
     .footerLinks
     {
@@ -47,10 +63,9 @@
     .main
     {
         background-repeat: repeat-y, no-repeat !important;
-        /* background-size: contain, 65vh !important; */
     }
 }
-@media only screen and (max-width: 900px)
+/* @media only screen and (max-width: 900px)
 {
     .work
     {
@@ -92,13 +107,13 @@
     {
         margin-top: 200% !important;
     }
-}
+} */
 @media only screen and (max-width: 350px)
 {
-    .work
+    /* .work
     {
         margin-top: 400% !important;
-    }
+    } */
     .main
     {
         /* background-size: contain, 60vh !important; */
@@ -133,8 +148,8 @@ body
 {
     background-image: url("../assets/spiral.svg"), url("../assets/self.png");
     background-position-x: 50%, 100%;
-    background-position-y: 0%, 19.1%;
-    background-size: contain, 87vh;
+    background-position-y: 0%, 100vh;
+    background-size: contain, 85vh;
     background-repeat: no-repeat, no-repeat;
     background-position: none, right;
     background-attachment: none, fixed;
@@ -155,23 +170,33 @@ body
 }
 .exp
 {
-    height: 210vh;
-    max-height: 210vh;
+    /* height: 210vh;
+    max-height: 210vh; */
     /* padding-left: 5%;
     padding-right: 5%; */
+    /* border: solid 1px white; */
     padding-top: 2%;
     max-width: 88%;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
 }
+.skillsWorkFooterContainer
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around !important;
+
+}
 .work
 {
     /* border: solid 1px white; */
-    height: 210vh;
+    /* height: 260vh; */
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 5%;
 }
 .chevDiv
 {
