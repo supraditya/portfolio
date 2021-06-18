@@ -22,13 +22,13 @@ const Work=()=>{
             />
             <WorkContainerSite
                 title="MOR TechFab"
-                desc="Website for MOR TechFab, a fabrics company based in Gujarat manufacturing PP/HDPE Fabric and Woven Sack bags."
+                desc="Website for MOR TechFab, a fabrics company based in Gujarat that manufactures PP/HDPE Fabric and Woven Sack bags."
                 link2="https://www.mortechfab.com"
                 spl="onlySite"
             />
             <WorkContainer 
                 title="Huntr" 
-                desc="Huntr is the outcome of a combat robotics project, developed as an entry for the Robowars tournament organized in VIT, Vellore by RoboVITics, in the 30kg category." 
+                desc="Huntr is the product of a combat robotics project, developed as an entry for the Robowars tournament organized in VIT, Vellore by RoboVITics, in the 30kg category." 
                 link="https://github.com/supraditya/Huntr"
             />
             <WorkContainer

@@ -194,9 +194,7 @@ body
     /* border: solid 1px white; */
     /* height: 260vh; */
     width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+    padding: 5% 5% 5% 5%;
 }
 .chevDiv
 {
