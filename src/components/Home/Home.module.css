@@ -1,223 +1,189 @@
-
 @media only screen and (max-width: 950px) {
-    .whiteTextLarge
-    {
-        font-size: 64px !important;
-    }
-    .orangeTextLarge
-    {
-        font-size: 36px !important;
-    }
-    .whiteText
-    {
-        font-size: 32px !important;
-    }
-    .home
-    {
-        flex-direction: column !important;
-    }
-    .chevDiv
-    {
-        display: none;
-    }
-    .mobileChevDiv
-    {
-        display: block !important;
-    }
-    .icon
-    {
-        font-size: 50px !important;
-    }
-    /* .actionButtons
-    {
-        margin-top: -15%;
-    } */
-    .buttonStyle
-    {
-        /* width: 220px !important; */
-        /* height: 40px !important; */
-        font-size: 20px !important;
-    }
+  .whiteTextLarge {
+    font-size: 64px !important;
   }
-
-@media only screen and (min-height: 800px) and (max-width: 450px){
-    .actionButtons
-    {
-        margin-top: 0% !important;
-    }
-    .whiteText
-    {
-        padding-top: 5% !important;
-    }
-}
-
-  /* Till iphone 6/7/8 */
-  @media only screen and (max-width: 450px) {
-    .actionButtons
-    {
-        margin-top: -15%;
-    }
-    /* .buttonStyle
-    {
-        font-size: 16px !important;
-    } */
-
+  .orangeTextLarge {
+    font-size: 36px !important;
   }
-
-  /* Till iphone 5 */
-  @media only screen and (max-width: 350px) {
-    .icon
-    {
-        font-size: 40px !important;
-    }
-    .buttonStyle
-    {
-        width: 220px !important;
-        height: 40px !important;
-        font-size: 16px !important;
-    }
-    .whiteTextLarge
-    {
-        font-size: 56px !important;
-    }
-    .orangeTextLarge
-    {
-        font-size: 32px !important;
-    }
-    .whiteText
-    {
-        font-size: 30px !important;
-    }  
+  .whiteText {
+    font-size: 32px !important;
   }
-
-.home
-{
-    height: 92vh;
-    padding-bottom: 2%;
-    /* border: solid 1px red; */
-    padding-top: 1%;
-    background-position: center;
-    margin: auto;
-    padding-left: 8%;
-    padding-right: 5%;
-    display: flex;
-    align-items: center;
-
-}
-
-.whiteText
-{
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 36px;
-    margin-bottom: -9%;
-    line-height: 115%;
-}
-.whiteTextLarge
-{
-    color: #ffffff;
-    font-weight: 300;
-    font-size: 105px;
-    max-width: 45%;
-    line-height: 130%;
-}
-.orangeText
-{
-    color: #fa6900;
-    font-weight: 800;
-    
-}
-.orangeTextLarge
-{
-    color: #fa6900;
-    font-weight: 600;
-    font-size: 42px;
-    margin-bottom: -5%;
-}
-.actionButtons
-{
-    color: #fff;
-    min-width: 35%;
-    /* border: solid 1px red; */
-    text-align: center;
-}
-.linkButtons
-{
-    display: flex;
-    width: 100%;
-    /* border: solid 1px white; */
-    justify-content:space-evenly;
-    margin-bottom: 4%;
-    align-items: center;
-}
-
-.buttonStyle
-{
-    transition: all 0.2s;
-    text-decoration: none;
-    background:transparent;
-    border: solid 1px #ffffff;
-    border-radius: 8px;
-    height: 60px;
-    width: 300px;
-    max-width: 70% !important;
-    color: #ffffff;
-    font-family: Saira;
-    font-size: 20px;
-    font-weight: 300;
-    padding-left: 4%;
-    padding-right: 4%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-.buttonStyle:hover
-{
-    transition: all 0.2s;
-    color: #fa6900;
-    border-color: #fa6900;
-    /* border: solid 2px #fa6900; */
-}
-.icon:nth-child(1), .icon:nth-child(2)
-{
-    transition: all 0.2s;
-    color: #ffffff;
-    font-size: 50px;
-}
-.icon:last-child
-{
-    transition: all 0.2s;
-    color: #ffffff;
-    font-size: 55px;
-}
-.icon:hover
-{
-    transition: all 0.2s;
-    color: #fa6900;
-}
-.chevDiv
-{
-    text-align: center;
-    /* border: solid 1px green; */
-    width: 60%;
-    margin-top: -8%;
-}
-.chevDiv button
-{
-    border: none;
-    background: transparent;
-}
-a span, button span
-{
-    cursor: pointer;
-}
-.mobileChevDiv
-{
+  .home {
+    flex-direction: column !important;
+  }
+  .chevDiv {
     display: none;
-    color: #fff;
-    background-color: transparent;
-    margin-top: 4%;
-    border: none;
-    /* margin-bottom: 5%; */
+  }
+  .mobileChevDiv {
+    display: block !important;
+  }
+  .icon {
+    font-size: 50px !important;
+  }
+  /* .actionButtons
+    {
+        margin-top: -15%;
+    } */
+  .buttonStyle {
+    /* width: 220px !important; */
+    /* height: 40px !important; */
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-height: 800px) and (max-width: 450px) {
+  .actionButtons {
+    margin-top: 0% !important;
+  }
+  .whiteText {
+    padding-top: 5% !important;
+  }
+}
+
+/* Till iphone 6/7/8 */
+@media only screen and (max-width: 450px) {
+  .actionButtons {
+    margin-top: -15%;
+  }
+  /* .buttonStyle
+    {
+        font-size: 16px !important;
+    } */
+}
+
+/* Till iphone 5 */
+@media only screen and (max-width: 350px) {
+  .icon {
+    font-size: 40px !important;
+  }
+  .buttonStyle {
+    width: 220px !important;
+    height: 40px !important;
+    font-size: 16px !important;
+  }
+  .whiteTextLarge {
+    font-size: 56px !important;
+  }
+  .orangeTextLarge {
+    font-size: 32px !important;
+  }
+  .whiteText {
+    font-size: 30px !important;
+  }
+}
+
+.home {
+  height: 92vh;
+  padding-bottom: 2%;
+  /* border: solid 1px red; */
+  padding-top: 1%;
+  background-position: center;
+  margin: auto;
+  padding-left: 8%;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.whiteText {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: -9%;
+  line-height: 115%;
+}
+.whiteTextLarge {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 105px;
+  max-width: 45%;
+  line-height: 130%;
+}
+.orangeText {
+  color: #fa6900;
+  font-weight: 800;
+}
+.orangeTextLarge {
+  color: #fa6900;
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: -5%;
+}
+.actionButtons {
+  color: #fff;
+  min-width: 35%;
+  /* border: solid 1px red; */
+  text-align: center;
+}
+.linkButtons {
+  display: flex;
+  width: 100%;
+  /* border: solid 1px white; */
+  justify-content: space-evenly;
+  margin-bottom: 4%;
+  align-items: center;
+}
+
+.buttonStyle {
+  transition: all 0.2s;
+  text-decoration: none;
+  background: transparent;
+  border: solid 1px #ffffff;
+  border-radius: 8px;
+  height: 60px;
+  width: 300px;
+  max-width: 70% !important;
+  color: #ffffff;
+  font-family: Saira;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 4%;
+  padding-right: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.buttonStyle:hover {
+  transition: all 0.2s;
+  color: #fa6900;
+  border-color: #fa6900;
+  /* border: solid 2px #fa6900; */
+}
+.icon:nth-child(1),
+.icon:nth-child(2) {
+  transition: all 0.2s;
+  color: #ffffff;
+  font-size: 50px;
+}
+.icon:last-child {
+  transition: all 0.2s;
+  color: #ffffff;
+  font-size: 55px;
+}
+.icon:hover {
+  transition: all 0.2s;
+  color: #fa6900;
+}
+.chevDiv {
+  text-align: center;
+  /* border: solid 1px green; */
+  width: 60%;
+  margin-top: -8%;
+}
+.chevDiv button {
+  border: none;
+  background: transparent;
+}
+a span,
+button span {
+  cursor: pointer;
+}
+.mobileChevDiv {
+  display: none;
+  color: #fff;
+  background-color: transparent;
+  margin-top: 4%;
+  border: none;
+  /* margin-bottom: 5%; */
 }

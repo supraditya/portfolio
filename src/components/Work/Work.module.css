@@ -1,11 +1,10 @@
-.whiteText
-{
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 36px;
-    /* margin-bottom: -9%; */
-    line-height: 115%;
-    text-align: center;
+.whiteText {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 36px;
+  /* margin-bottom: -9%; */
+  line-height: 115%;
+  text-align: center;
 }
 /* .work
 {

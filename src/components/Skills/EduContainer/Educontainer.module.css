@@ -1,110 +1,92 @@
 @media only screen and (max-width: 1000px) {
-    .dateText
-    {
-        font-size: 56px !important;
-    }
-    .instName
-    {
-        font-size: 16px !important;
-    }
-    .fact
-    {
-        font-size: 14px !important;
-    }
-    .outer
-    {
-        padding: 6% 2% 6% 2% !important;
-
-    }
+  .dateText {
+    font-size: 56px !important;
+  }
+  .instName {
+    font-size: 16px !important;
+  }
+  .fact {
+    font-size: 14px !important;
+  }
+  .outer {
+    padding: 6% 2% 6% 2% !important;
+  }
 }
 @media only screen and (max-width: 780px) {
-    .outer
-    {
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
+  .outer {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
 
 /* Edu styling for iphone 6/7/8 */
 @media only screen and (max-width: 400px) {
-    .dateText
-    {
-        font-size: 48px !important;
-    }
-    .instName
-    {
-        font-size: 14px !important;
-    }
-    .fact
-    {
-        font-size: 12px !important;
-    }
-    .instName:nth-child(3)
-    {
-        font-size: 10px !important;
-    }
+  .dateText {
+    font-size: 48px !important;
+  }
+  .instName {
+    font-size: 14px !important;
+  }
+  .fact {
+    font-size: 12px !important;
+  }
+  .instName:nth-child(3) {
+    font-size: 10px !important;
+  }
 }
 
 /* For iphone 5 */
 @media only screen and (max-width: 360px) {
-    .dateText
-    {
-        font-size: 42px !important;
-    }
-    .instName
-    {
-        font-size: 12px !important;
-    }
-    .fact
-    {
-        font-size: 10px !important;
-    }
+  .dateText {
+    font-size: 42px !important;
+  }
+  .instName {
+    font-size: 12px !important;
+  }
+  .fact {
+    font-size: 10px !important;
+  }
 }
-.outer
-{
-    /* position: relative; */
-    /* z-index: 1; */
-    border: solid 1px #777;
-    background-color: #222222;
-    max-width: 420px;
-    /* min-height: 160px; */
-    max-height: 170px;
-    padding: 3% 1% 2% 1%;
-    /* color: #fff; */
-    border-radius: 0 35px 0 35px;
-    margin-bottom: 4%;
+.outer {
+  /* position: relative; */
+  /* z-index: 1; */
+  border: solid 1px #777;
+  background-color: #222222;
+  max-width: 420px;
+  /* min-height: 160px; */
+  max-height: 170px;
+  padding: 3% 1% 2% 1%;
+  /* color: #fff; */
+  border-radius: 0 35px 0 35px;
+  margin-bottom: 4%;
 
-    box-shadow: 2px 2px 4px #000000;
+  box-shadow: 2px 2px 4px #000000;
 }
-.dateText
-{
-    position: relative;
-    z-index: 1;
-    color: #595959;
-    font-size: 72px;
-    /* border: solid 1px red; */
-    text-align: center;
-    margin: 0;
+.dateText {
+  position: relative;
+  z-index: 1;
+  color: #595959;
+  font-size: 72px;
+  /* border: solid 1px red; */
+  text-align: center;
+  margin: 0;
 }
-.instName
-{
-    position: relative;
-    z-index: 2;
-    color: #fa6900;
-    font-size: 22px;
-    font-weight: 500;
-    margin-top: -30%;
-    padding-left: 2%;
-    padding-right: 2%;
-
+.instName {
+  position: relative;
+  z-index: 2;
+  color: #fa6900;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: -30%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
-.fact
-{
-    position: relative;
-    z-index: 2;
-    font-size: 20px;
-    color: #ffffff;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-top: -5.5%;
+.fact {
+  position: relative;
+  z-index: 2;
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: -5.5%;
 }

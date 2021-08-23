@@ -1,148 +1,125 @@
 @media only screen and (max-width: 1200px) {
-    .skills
-    {
-        /* overflow-y: scroll; */
-        flex-direction: column !important;
-        align-items: center;
-        /* border: solid 1px white; */
-    }
-    .leftDiv
-    {
-        min-width: 100% !important;
-        display: flex;
-        align-items: baseline;
-        /* border: solid 1px red; */
-    }
-    .rightDiv
-    {
-        width: 100% !important;
-        /* float: right; */
-    }
-    .eduDiv
-    {
-        /* margin-left: -5% !important; */
-        /* border: solid 1px white; */
-        width: 50%;
-    }
-    .skillsDiv
-    {
-        width: 50%;
-        /* border: solid 1px white; */
-    }
-    .thinWhiteText
-    {
-        display: block !important;
-    }
+  .skills {
+    /* overflow-y: scroll; */
+    flex-direction: column !important;
+    align-items: center;
+    /* border: solid 1px white; */
+  }
+  .leftDiv {
+    min-width: 100% !important;
+    display: flex;
+    align-items: baseline;
+    /* border: solid 1px red; */
+  }
+  .rightDiv {
+    width: 100% !important;
+    /* float: right; */
+  }
+  .eduDiv {
+    /* margin-left: -5% !important; */
+    /* border: solid 1px white; */
+    width: 50%;
+  }
+  .skillsDiv {
+    width: 50%;
+    /* border: solid 1px white; */
+  }
+  .thinWhiteText {
+    display: block !important;
+  }
 }
 
 @media only screen and (max-width: 780px) {
-    .leftDiv
-    {
-        flex-direction: column;
-        align-items: center !important;
-        /* border: solid 1px white; */
-    }
-    .eduDiv
-    {
-        /* border: solid 1px red; */
-        /* display: flex; */
-        /* align-items: center; */
-        width: 100% !important;
-    }
-    .skillsDiv
-    {
-        width: 100% !important;
-    }
-    .whiteTextEdu
-    {
-        width: 100% !important;
-    }
-}
-.whiteText
-{
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 36px;
-    /* margin-bottom: -9%; */
-    line-height: 115%;
-    text-align: center;
-}
-.whiteTextEdu
-{
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 115%;
-    text-align: center;
-    width: 80%;
-    
-}
-.skills
-{
+  .leftDiv {
+    flex-direction: column;
+    align-items: center !important;
+    /* border: solid 1px white; */
+  }
+  .eduDiv {
     /* border: solid 1px red; */
-    /* overflow-y: scroll; */
-    display: flex;
-    margin-top: -1%;
-    /* height: 175vh; */
-    /* width: 88%; */
-    padding-left: 5%;
-    padding-right: 5%;
+    /* display: flex; */
+    /* align-items: center; */
+    width: 100% !important;
+  }
+  .skillsDiv {
+    width: 100% !important;
+  }
+  .whiteTextEdu {
+    width: 100% !important;
+  }
 }
-.eduDiv
-{
-    /* border: solid 1px white; */
-    /* margin-top: 10%; */
-    min-height: 70vh;
-    /* max-width: 40%; */
-    /* text-align: center; */
+.whiteText {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 36px;
+  /* margin-bottom: -9%; */
+  line-height: 115%;
+  text-align: center;
 }
-.skillsDiv
-{
-    margin-top: 3%;
-    min-height: 50vh;
-    max-width: 80%;
-    /* border: solid 1px white; */
+.whiteTextEdu {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 115%;
+  text-align: center;
+  width: 80%;
 }
-.leftDiv
-{
-    /* border: solid 1px green; */
-    max-width: 45%;
+.skills {
+  /* border: solid 1px red; */
+  /* overflow-y: scroll; */
+  display: flex;
+  margin-top: -1%;
+  /* height: 175vh; */
+  /* width: 88%; */
+  padding-left: 5%;
+  padding-right: 5%;
 }
-.iconDiv
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* border: solid 1px white; */
-    text-align: center !important;
-
+.eduDiv {
+  /* border: solid 1px white; */
+  /* margin-top: 10%; */
+  min-height: 70vh;
+  /* max-width: 40%; */
+  /* text-align: center; */
 }
-.skillIcon
-{
-    font-size: 50px;
-    flex: 0 0 33%;
-    /* margin-left: auto; */
-    /* border-radius: 10px; */
+.skillsDiv {
+  margin-top: 3%;
+  min-height: 50vh;
+  max-width: 80%;
+  /* border: solid 1px white; */
 }
-span img
-{
-    height: 45px;
-    width: 45px;
+.leftDiv {
+  /* border: solid 1px green; */
+  max-width: 45%;
 }
-.rightDiv
-{
-    /* display: inline-block; */
-    /* border: solid 1px red; */
-    color: white;
-    width: 55%;
+.iconDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: solid 1px white; */
+  text-align: center !important;
 }
-.thinWhiteText
-{
-    display: none;
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: 200;
-    margin-top: 6%;
-    width: 85%;
-    text-align: center;
+.skillIcon {
+  font-size: 50px;
+  flex: 0 0 33%;
+  /* margin-left: auto; */
+  /* border-radius: 10px; */
+}
+span img {
+  height: 45px;
+  width: 45px;
+}
+.rightDiv {
+  /* display: inline-block; */
+  /* border: solid 1px red; */
+  color: white;
+  width: 55%;
+}
+.thinWhiteText {
+  display: none;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 200;
+  margin-top: 6%;
+  width: 85%;
+  text-align: center;
 }

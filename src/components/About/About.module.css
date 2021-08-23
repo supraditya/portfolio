@@ -1,182 +1,155 @@
 @media only screen and (max-width: 1210px) {
-    .whiteTextHeader
-    {
-        font-size: 36px !important;
-    }
-    .whiteText
-    {
-        font-size: 18px !important;
-    }
-    .icon
-    {
-        font-size: 50px;
-    }
+  .whiteTextHeader {
+    font-size: 36px !important;
+  }
+  .whiteText {
+    font-size: 18px !important;
+  }
+  .icon {
+    font-size: 50px;
+  }
 }
 /* Till iphone 6/7/8 */
 @media only screen and (max-width: 1000px) {
-    /* .whiteTextHeader
+  /* .whiteTextHeader
     {
         font-size: 36px !important;
     } */
-    .whiteText
-    {
-        padding-top: 5% !important;
-        /* font-size: 14px !important; */
-    }
-    .about
-    {
-        margin-top: 8%;
-        flex-direction: column !important;
-    }
-    .aboutRight
-    {
-        display: none !important;
-    }
-    .iconDivMobile
-    {
-        /* border: solid 1px white; */
-        padding-top: -3%;
-        display: flex !important;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .aboutLeft
-    {
-        width: 100% !important;
-    }
+  .whiteText {
+    padding-top: 5% !important;
+    /* font-size: 14px !important; */
+  }
+  .about {
+    margin-top: 8%;
+    flex-direction: column !important;
+  }
+  .aboutRight {
+    display: none !important;
+  }
+  .iconDivMobile {
+    /* border: solid 1px white; */
+    padding-top: -3%;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .aboutLeft {
+    width: 100% !important;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .whiteText
-    {
-        padding-top: 10% !important;
-        font-size: 14px !important;
-    }
+  .whiteText {
+    padding-top: 10% !important;
+    font-size: 14px !important;
+  }
 }
 
 /* For iphone 5 */
-@media only screen and (max-width: 360px){
-    .whiteText
-    {
-        padding-top: 2% !important;
-        font-size: 12px !important;
-    }
-    .thinWhiteText
-    {
-        font-size: 14px !important;
-    }
-    .icon
-    {
-        font-size: 45px !important;
-    }
+@media only screen and (max-width: 360px) {
+  .whiteText {
+    padding-top: 2% !important;
+    font-size: 12px !important;
+  }
+  .thinWhiteText {
+    font-size: 14px !important;
+  }
+  .icon {
+    font-size: 45px !important;
+  }
 }
 
-.whiteTextHeader
-{
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 42px;
-    /* margin-bottom: -9%; */
-    line-height: 115%;
-    /* border: solid 1px white; */
-    /* width: 60%; */
-    text-align: center;
-    /* margin-left: auto; */
-    /* margin-right: auto;
+.whiteTextHeader {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 42px;
+  /* margin-bottom: -9%; */
+  line-height: 115%;
+  /* border: solid 1px white; */
+  /* width: 60%; */
+  text-align: center;
+  /* margin-left: auto; */
+  /* margin-right: auto;
     margin-bottom: 5%; */
-    margin: auto;
+  margin: auto;
 }
-.whiteText
-{
-    color: #ffffff;
-    font-weight: 300;
-    font-size: 22px;
-    /* margin-bottom: -9%; */
-    /* line-height: 115%; */
-    /* border: solid 1px white; */
-    width: 90%;
-    margin: auto;
-    text-align: justify;
+.whiteText {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 22px;
+  /* margin-bottom: -9%; */
+  /* line-height: 115%; */
+  /* border: solid 1px white; */
+  width: 90%;
+  margin: auto;
+  text-align: justify;
 }
-.about
-{
-    display: flex;
-    min-height: 100vh;
-    /* margin-top: 1%; */
-    /* max-width: 80%; */
-    /* border: solid 1px red; */
+.about {
+  display: flex;
+  min-height: 100vh;
+  /* margin-top: 1%; */
+  /* max-width: 80%; */
+  /* border: solid 1px red; */
 }
-.orangeTextHeader
-{
-    color: #fa6900;
-    font-weight: 600;   
+.orangeTextHeader {
+  color: #fa6900;
+  font-weight: 600;
 }
-.orangeText
-{
-    color: #fa6900;
-    font-weight: 500;   
+.orangeText {
+  color: #fa6900;
+  font-weight: 500;
 }
-.aboutLeft
-{
-    /* border: solid 1px red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    text-align: center;
-    padding-bottom: 3%;
+.aboutLeft {
+  /* border: solid 1px red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 3%;
 }
-.aboutRight
-{
-    /* border: solid 1px red; */
-    width: 50%;
-    /* display: flex; */
-    
-    /* align-items: right; */
-}
-.chevDiv
-{
-    text-align: center;
-    margin-top: -3%;
-}
-.chevDiv button
-{
-    margin-top: -2%;
-    border: none;
-    background: transparent;
-    /* font-size: 70px; */
-}
-.icon
-{
-    transition: all 0.2s;
-    color: #ffffff;
-    font-size: 70px;
-}
-.icon:hover
-{
-    transition: all 0.2s;
-    color: #fa6900;
-}
-.thinWhiteText
-{
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: 200;
-    margin-top: 6%;
+.aboutRight {
+  /* border: solid 1px red; */
+  width: 50%;
+  /* display: flex; */
 
+  /* align-items: right; */
 }
-.iconDiv
-{
-    margin-top: 90%;
-    margin-right: 5%;
-    float: right;
-    display: flex;
-    justify-content: right;
-    max-width: 40%;
-    min-width: 40%;
-    /* border: solid 1px green; */
-    justify-content: space-between;
+.chevDiv {
+  text-align: center;
+  margin-top: -3%;
 }
-.iconDivMobile
-{
-    display: none;
+.chevDiv button {
+  margin-top: -2%;
+  border: none;
+  background: transparent;
+  /* font-size: 70px; */
+}
+.icon {
+  transition: all 0.2s;
+  color: #ffffff;
+  font-size: 70px;
+}
+.icon:hover {
+  transition: all 0.2s;
+  color: #fa6900;
+}
+.thinWhiteText {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 200;
+  margin-top: 6%;
+}
+.iconDiv {
+  margin-top: 90%;
+  margin-right: 5%;
+  float: right;
+  display: flex;
+  justify-content: right;
+  max-width: 40%;
+  min-width: 40%;
+  /* border: solid 1px green; */
+  justify-content: space-between;
+}
+.iconDivMobile {
+  display: none;
 }
