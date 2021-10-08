@@ -18,7 +18,7 @@ import scrollTo from "gatsby-plugin-smoothscroll";
 import { Helmet } from "react-helmet";
 
 const fav = {
-  image: require("../assets/my-logo.svg"),
+  image: require("../assets/my-logo-fav.png"),
 };
 
 const IndexPage = () => {
