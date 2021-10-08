@@ -29,7 +29,7 @@ const IndexPage = () => {
         <title>Aditya Menon</title>
         <meta
           name="description"
-          content="My name is Aditya Menon and I am a Frontend Web Developer and a UI/UX Designer. This is my Portfolio Site."
+          content="My name is Aditya Menon. I am a Web Developer &amp; a UI/UX Designer, and this is my Portfolio Site."
         ></meta>
         <meta
           name="keywords"
@@ -41,7 +41,7 @@ const IndexPage = () => {
         />
         <meta
           property="og:description"
-          content="My name is Aditya Menon and I am a Frontend Web Developer and a UI/UX Designer. This is my Portfolio Site."
+          content="My name is Aditya Menon. I am a Web Developer &amp; a UI/UX Designer, and this is my Portfolio Site."
         />
         <meta property="og:url" content="https://www.supraditya.com/" />
         <meta property="og:type" content="website" />
