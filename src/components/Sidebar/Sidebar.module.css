@@ -65,12 +65,18 @@
   align-items: flex-end;
   justify-content: center;
 }
-.sidebarLinks p {
+.sidebarLinks button {
   font-size: 22px;
   cursor: pointer;
   user-select: none;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-family: "Saira", sans-serif;
+  margin-top: 8%;
+  margin-bottom: 8%;
 }
-.sidebarLinks p:hover {
+.sidebarLinks button:hover {
   transition: all 0.1s ease-in-out;
   color: #fa6900;
 }
