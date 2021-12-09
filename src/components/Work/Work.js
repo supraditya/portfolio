@@ -15,15 +15,44 @@ const Work = () => {
         link="https://github.com/IEEECS-VIT/chapter-website-2021"
         link2="https://www.ieeecsvit.com"
       /> */}
-      <ProjectCard
-        title="IEEECS-VIT Website"
-        desc="Landing Page for IEEECS-VIT"
-        domains={['Web Development', 'Project Management']}
-        tech_used={['GatsbyJS', 'ReactJS' , 'Netlify']}
-        gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
-        siteLink="https://www.ieeecsvit.com"
-        bg="../../../assets/projects/ieeecsvit_ss.png"
-      />
+      <div className={styles.projectsOuter}>
+        <ProjectCard
+          title="IEEECS-VIT Website"
+          desc="Landing Page for IEEECS-VIT"
+          domains={["Web Development", "Project Management"]}
+          tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
+          gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
+          siteLink="https://www.ieeecsvit.com"
+          bg="../../../assets/projects/ieeecsvit_ss.png"
+        />
+        <ProjectCard
+          title="IEEECS-VIT Website"
+          desc="Landing Page for IEEECS-VIT"
+          domains={["Web Development", "Project Management"]}
+          tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
+          gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
+          siteLink="https://www.ieeecsvit.com"
+          bg="../../../assets/projects/ieeecsvit_ss.png"
+        />
+        <ProjectCard
+          title="IEEECS-VIT Website"
+          desc="Landing Page for IEEECS-VIT"
+          domains={["Web Development", "Project Management"]}
+          tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
+          gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
+          siteLink="https://www.ieeecsvit.com"
+          bg="../../../assets/projects/ieeecsvit_ss.png"
+        />
+        <ProjectCard
+          title="IEEECS-VIT Website"
+          desc="Landing Page for IEEECS-VIT"
+          domains={["Web Development", "Project Management"]}
+          tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
+          gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
+          siteLink="https://www.ieeecsvit.com"
+          bg="../../../assets/projects/ieeecsvit_ss.png"
+        />
+      </div>
       {/* <WorkContainerSite
         title="HackBattle '20"
         desc="Landing Page for Hackbattle '20, a 36-Hour Multidisciplinary Hackathon. Hosted at hackbattle.ieeecsvit.com"

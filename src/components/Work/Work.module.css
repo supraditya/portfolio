@@ -13,3 +13,13 @@
     color: white;
     padding-top: 10%;
 } */
+.projectsOuter {
+  /* border: solid 1px white; */
+  display: flex;
+  justify-content: space-between;
+  /* flex: none; */
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  flex-wrap: wrap; 
+}
