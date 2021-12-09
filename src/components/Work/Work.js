@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Work.module.css";
+// import img from "../../assets/projects/ieeecsvit_ss.png";
 // import WorkContainer from "./WorkContainer/WorkContainer";
 import ProjectCard from "./ProjectCard/ProjectCard";
 // import WorkContainerSite from "./WorkContainer-siteLink/WorkContainerSite";
@@ -18,6 +19,10 @@ const Work = () => {
         title="IEEECS-VIT Website"
         desc="Landing Page for IEEECS-VIT"
         domains={['Web Development', 'Project Management']}
+        tech_used={['GatsbyJS', 'ReactJS' , 'Netlify']}
+        gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
+        siteLink="https://www.ieeecsvit.com"
+        bg="../../../assets/projects/ieeecsvit_ss.png"
       />
       {/* <WorkContainerSite
         title="HackBattle '20"
