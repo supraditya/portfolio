@@ -9,77 +9,58 @@ const Work = () => {
     <div className={styles.work}>
       <div className={styles.whiteText}>My Work</div>
       <br></br>
-      {/* <WorkContainerSite
-        title="IEEECS-VIT Website"
-        desc="Landing Page for IEEECS-VIT, a technical Student Organisation operating from VIT Vellore. Developed using GatsbyJS. Hosted at ieeecsvit.com"
-        link="https://github.com/IEEECS-VIT/chapter-website-2021"
-        link2="https://www.ieeecsvit.com"
-      /> */}
       <div className={styles.projectsOuter}>
         <ProjectCard
+          title="Dusk Security"
+          domains={[
+            "Web Design",
+            "Web Development",
+          ]}
+          tech_used={["GatsbyJS", "React", "Netlify", "Figma", "Illustrator"]}
+          designLink="https://www.figma.com/file/v5KjDGjjFHnPV9w22uRkVt/Dusk-Security-Landing-Page?node-id=302%3A1582"
+          siteLink="https://dusksecurity.com"
+          project_img="dusksecurity"
+        />
+        <ProjectCard
           title="IEEECS-VIT Website"
-          desc="Landing Page for IEEECS-VIT"
           domains={["Web Development", "Project Management"]}
-          tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
+          tech_used={["GatsbyJS", "React", "Netlify"]}
           gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
           siteLink="https://www.ieeecsvit.com"
           project_img="ieeecsvit"
         />
         <ProjectCard
-          title="IEEECS-VIT Website"
-          desc="Landing Page for IEEECS-VIT"
+          title="MOR TechFab"
           domains={["Web Development", "Project Management"]}
-          tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
-          gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
-          siteLink="https://www.ieeecsvit.com"
+          tech_used={["Mobirise", "Netlify"]}
+          siteLink="https://mortechfab.com"
           project_img="ieeecsvit"
         />
         <ProjectCard
-          title="IEEECS-VIT Website"
-          desc="Landing Page for IEEECS-VIT"
-          domains={["Web Development", "Project Management"]}
-          tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
-          gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
-          siteLink="https://www.ieeecsvit.com"
+          title="Hackbattle '20"
+          domains={["Web Development"]}
+          tech_used={["JQuery", "FullPageJS", "Netlify"]}
+          gitLink="https://github.com/IEEECS-VIT/hackbattle20"
+          siteLink="https://hackbattle.ieeecsvit.com"
           project_img="ieeecsvit"
         />
         <ProjectCard
-          title="IEEECS-VIT Website"
-          desc="Landing Page for IEEECS-VIT"
-          domains={["Web Development", "Project Management"]}
-          tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
-          gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
-          siteLink="https://www.ieeecsvit.com"
+          title="Huntr"
+          domains={["Combat Robotics"]}
+          tech_used={["Arduino", "C++"]}
+          gitLink="https://github.com/supraditya/Huntr"
+          // siteLink="https://hackbattle.ieeecsvit.com"
+          project_img="ieeecsvit"
+        />
+        <ProjectCard
+          title="Fire Detection System"
+          domains={["Machine Learning, Image Processing"]}
+          tech_used={["Python", "OpenCV"]}
+          gitLink="https://github.com/supraditya/FireDetector"
+          // siteLink="https://hackbattle.ieeecsvit.com"
           project_img="ieeecsvit"
         />
       </div>
-      {/* <WorkContainerSite
-        title="HackBattle '20"
-        desc="Landing Page for Hackbattle '20, a 36-Hour Multidisciplinary Hackathon. Hosted at hackbattle.ieeecsvit.com"
-        link="https://github.com/IEEECS-VIT/HackBattle20"
-        link2="https://hackbattle.ieeecsvit.com"
-      />
-      <WorkContainerSite
-        title="MOR TechFab"
-        desc="Website for MOR TechFab, a fabrics company based in Gujarat that manufactures PP/HDPE Fabric and Woven Sack bags."
-        link2="https://www.mortechfab.com"
-        spl="onlySite"
-      />
-      <WorkContainer
-        title="Huntr"
-        desc="Huntr is the product of a combat robotics project, developed as an entry for the Robowars tournament organized in VIT, Vellore by RoboVITics, in the 30kg category."
-        link="https://github.com/supraditya/Huntr"
-      />
-      <WorkContainer
-        title="Surya NestBuild"
-        desc="Redesigned views for the Surya Nestbuild Ltd.'s website."
-        link="https://github.com/supraditya/suryaRealEstate"
-      />
-      <WorkContainer
-        title="Fire Detection System"
-        desc="A CNN Model trained on a dataset of images containing fire, using our pre-processing algorithm that increases real-time flame detection accuracy by almost 12%"
-        link="https://github.com/supraditya/FireDetector"
-      /> */}
     </div>
   );
 };

@@ -1,14 +1,9 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
-import { FaGithub, FaGlobe } from "react-icons/fa";
+import { FaGithub, FaGlobe, } from "react-icons/fa";
+import {CgFigma} from "react-icons/cg";
 
 const ProjectCard = (props) => {
-  //   const bgStyle = {
-  //     backgroundImage: `url(${bg})`,
-  //     backgroundSize: 'contain',
-  //     backgroundRepeat: 'no-repeat',
-  //     backgroundPosition: 'top',
-  //   };
   return (
     <div className={styles.outer}>
       <img
@@ -46,14 +41,30 @@ const ProjectCard = (props) => {
           })}
         </div>
         <div className={styles.buttonsOuter}>
-          <a className={styles.actionButtons} href={props.siteLink}>
-            <FaGlobe size="16px" />
-            &ensp;VIEW
-          </a>
-          <a className={styles.actionButtons} href={props.gitLink}>
-            <FaGithub size="16px" />
-            &ensp;SOURCE
-          </a>
+          {props.siteLink !== undefined ? (
+            <a className={styles.actionButtons} href={props.siteLink} target="_blank" rel="noreferrer">
+              <FaGlobe size="16px" />
+              &ensp;VIEW
+            </a>
+          ) : (
+            <span></span>
+          )}
+          {props.gitLink !== undefined ? (
+            <a className={styles.actionButtons} href={props.gitLink} target="_blank" rel="noreferrer">
+              <FaGithub size="16px" />
+              &ensp;SOURCE
+            </a>
+          ) : (
+            <span></span>
+          )}
+          {props.designLink !== undefined ? (
+            <a className={styles.actionButtons} href={props.designLink} target="_blank" rel="noreferrer">
+              <CgFigma size="16px" />
+              &ensp;DESIGN
+            </a>
+          ) : (
+            <span></span>
+          )}
         </div>
       </div>
     </div>
