@@ -49,7 +49,6 @@ const Work = () => {
           domains={["Combat Robotics"]}
           tech_used={["Arduino", "C++"]}
           gitLink="https://github.com/supraditya/Huntr"
-          // siteLink="https://hackbattle.ieeecsvit.com"
           project_img="github_placeholder"
         />
         <ProjectCard
@@ -57,8 +56,16 @@ const Work = () => {
           domains={["Machine Learning, Image Processing"]}
           tech_used={["Python", "OpenCV"]}
           gitLink="https://github.com/supraditya/FireDetector"
-          // siteLink="https://hackbattle.ieeecsvit.com"
           project_img="github_placeholder"
+        />
+        <ProjectCard
+          title="Portfolio Website"
+          domains={["Web Design, Web Development"]}
+          tech_used={["GatsbyJS", "React", "Figma", "Illustrator", "Netlify"]}
+          gitLink="https://github.com/supraditya/portfolio"
+          siteLink="https://www.supraditya.com"
+          designLink="https://www.figma.com/file/4pcawtzTmwVTvYit8c3jiU/Portfolio-Site-Design?node-id=0%3A1"
+          project_img="portfolio"
         />
       </div>
     </div>
