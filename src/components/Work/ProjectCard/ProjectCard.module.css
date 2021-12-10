@@ -1,3 +1,27 @@
+@media only screen and (max-width: 1000px) {
+  .outer {
+    min-width: 100% !important;
+    width: 100% !important;
+    background-color: red;
+  }
+  .domainsOuter {
+    margin-top: -2% !important;
+  }
+  .buttonsOuter {
+    width: 100% !important;
+  }
+  .techChip {
+    margin-bottom: 1.5%;
+  }
+  .actionButtons
+  {
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+    min-width: 90px !important;
+    font-size: 12px !important;
+  }
+}
+
 .outer {
   color: white;
   border: solid 2px #777;
@@ -38,6 +62,7 @@
   color: #fff;
   background-color: #0381c0;
   margin-right: 1.5%;
+  /* margin-bottom: 1.5%; */
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   padding-left: 2%;
@@ -52,15 +77,14 @@
   display: flex;
   flex-wrap: wrap;
 }
-.buttonsOuter 
-{
-    /* border: solid 1px red; */
-    margin-top: 3%;
-    width: 53%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+.buttonsOuter {
+  /* border: solid 1px red; */
+  margin-top: 3%;
+  width: 53%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .actionButtons {
   transition: all 0.2s;
@@ -91,18 +115,16 @@
   border-color: #fa6900;
   /* border: solid 2px #fa6900; */
 }
-.projectsCardBg
-{
-    width: 100%;
-    height: auto;
+.projectsCardBg {
+  width: 100%;
+  height: auto;
 }
-.cardContent
-{
-    padding-left: 2%;
-    /* border: solid 1px red; */
-    width: 100%;
-    padding-right: 2%;
-    /* padding-top: 1%; */
-    padding-bottom: 3%;
-    /* padding-right: 1.5%; */
+.cardContent {
+  padding-left: 2%;
+  /* border: solid 1px red; */
+  width: 100%;
+  padding-right: 2%;
+  /* padding-top: 1%; */
+  padding-bottom: 3%;
+  /* padding-right: 1.5%; */
 }
