@@ -23,7 +23,7 @@ const Work = () => {
           tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
           gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
           siteLink="https://www.ieeecsvit.com"
-          bg="../../../assets/projects/ieeecsvit_ss.png"
+          project_img="ieeecsvit"
         />
         <ProjectCard
           title="IEEECS-VIT Website"
@@ -32,7 +32,7 @@ const Work = () => {
           tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
           gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
           siteLink="https://www.ieeecsvit.com"
-          bg="../../../assets/projects/ieeecsvit_ss.png"
+          project_img="ieeecsvit"
         />
         <ProjectCard
           title="IEEECS-VIT Website"
@@ -41,7 +41,7 @@ const Work = () => {
           tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
           gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
           siteLink="https://www.ieeecsvit.com"
-          bg="../../../assets/projects/ieeecsvit_ss.png"
+          project_img="ieeecsvit"
         />
         <ProjectCard
           title="IEEECS-VIT Website"
@@ -50,7 +50,7 @@ const Work = () => {
           tech_used={["GatsbyJS", "ReactJS", "Netlify"]}
           gitLink="https://github.com/IEEECS-VIT/chapter-website-2021"
           siteLink="https://www.ieeecsvit.com"
-          bg="../../../assets/projects/ieeecsvit_ss.png"
+          project_img="ieeecsvit"
         />
       </div>
       {/* <WorkContainerSite

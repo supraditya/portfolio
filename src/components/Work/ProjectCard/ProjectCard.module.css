@@ -34,15 +34,15 @@
   font-size: 22px;
 }
 .techChip {
-  /* border: solid 2px rgb(167, 165, 165); */
+  border: solid 1px #fff;
   color: #fff;
   background-color: #0381c0;
   margin-right: 1.5%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
-  padding-left: 1.5%;
-  padding-right: 1.5%;
-  border-radius: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 25px;
 }
 .chipsOuter {
   margin-top: 1%;
@@ -55,7 +55,7 @@
 {
     /* border: solid 1px red; */
     margin-top: 3%;
-    width: 55%;
+    width: 53%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

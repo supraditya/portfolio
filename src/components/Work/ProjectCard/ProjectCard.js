@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
 import { FaGithub, FaGlobe } from "react-icons/fa";
-import bg from "../../../assets/projects/ieeecsvit_ss.png";
 
 const ProjectCard = (props) => {
   //   const bgStyle = {
@@ -12,7 +11,11 @@ const ProjectCard = (props) => {
   //   };
   return (
     <div className={styles.outer}>
-      <img src={bg} className={styles.projectsCardBg} alt="Projects"></img>
+      <img
+        src={require(`../../../assets/projects/${props.project_img}_ss.png`)}
+        className={styles.projectsCardBg}
+        alt="Projects"
+      ></img>
       <div className={styles.cardContent}>
         <p className={styles.title}>{props.title}</p>
         <div className={styles.domainsOuter}>
