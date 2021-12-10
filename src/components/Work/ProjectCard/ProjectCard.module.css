@@ -3,6 +3,7 @@
     min-width: 100% !important;
     width: 100% !important;
     background-color: red;
+    min-height: unset !important;
   }
   .domainsOuter {
     margin-top: -2% !important;
