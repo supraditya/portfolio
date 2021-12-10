@@ -34,7 +34,7 @@ const Work = () => {
           domains={["Web Development", "Project Management"]}
           tech_used={["Mobirise", "Netlify"]}
           siteLink="https://mortechfab.com"
-          project_img="ieeecsvit"
+          project_img="mortechfab"
         />
         <ProjectCard
           title="Hackbattle '20"
@@ -42,7 +42,7 @@ const Work = () => {
           tech_used={["JQuery", "FullPageJS", "Netlify"]}
           gitLink="https://github.com/IEEECS-VIT/hackbattle20"
           siteLink="https://hackbattle.ieeecsvit.com"
-          project_img="ieeecsvit"
+          project_img="hackbattle"
         />
         <ProjectCard
           title="Huntr"
@@ -50,7 +50,7 @@ const Work = () => {
           tech_used={["Arduino", "C++"]}
           gitLink="https://github.com/supraditya/Huntr"
           // siteLink="https://hackbattle.ieeecsvit.com"
-          project_img="ieeecsvit"
+          project_img="github_placeholder"
         />
         <ProjectCard
           title="Fire Detection System"
@@ -58,7 +58,7 @@ const Work = () => {
           tech_used={["Python", "OpenCV"]}
           gitLink="https://github.com/supraditya/FireDetector"
           // siteLink="https://hackbattle.ieeecsvit.com"
-          project_img="ieeecsvit"
+          project_img="github_placeholder"
         />
       </div>
     </div>

@@ -119,6 +119,12 @@
   width: 100%;
   height: auto;
 }
+.projectsCardPlaceholderBg {
+  width: 50%;
+  margin-top: 2% !important;
+  margin: auto;
+  height: auto;
+}
 .cardContent {
   padding-left: 2%;
   /* border: solid 1px red; */

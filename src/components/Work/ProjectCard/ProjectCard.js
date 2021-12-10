@@ -1,16 +1,26 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
-import { FaGithub, FaGlobe, } from "react-icons/fa";
-import {CgFigma} from "react-icons/cg";
+import { FaGithub, FaGlobe } from "react-icons/fa";
+import { CgFigma } from "react-icons/cg";
+
+// Project images are 1920x1080. 150% zoom. https://www.site-shot.com/
 
 const ProjectCard = (props) => {
   return (
     <div className={styles.outer}>
-      <img
-        src={require(`../../../assets/projects/${props.project_img}_ss.png`)}
-        className={styles.projectsCardBg}
-        alt="Projects"
-      ></img>
+      {props.project_img !== "github_placeholder" ? (
+        <img
+          src={require(`../../../assets/projects/${props.project_img}_ss.png`)}
+          className={styles.projectsCardBg}
+          alt="Projects"
+        ></img>
+      ) : (
+        <img
+          src={require(`../../../assets/projects/${props.project_img}_ss.svg`)}
+          className={styles.projectsCardPlaceholderBg}
+          alt="Projects"
+        ></img>
+      )}
       <div className={styles.cardContent}>
         <p className={styles.title}>{props.title}</p>
         <div className={styles.domainsOuter}>
@@ -42,7 +52,12 @@ const ProjectCard = (props) => {
         </div>
         <div className={styles.buttonsOuter}>
           {props.siteLink !== undefined ? (
-            <a className={styles.actionButtons} href={props.siteLink} target="_blank" rel="noreferrer">
+            <a
+              className={styles.actionButtons}
+              href={props.siteLink}
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGlobe size="16px" />
               &ensp;VIEW
             </a>
@@ -50,7 +65,12 @@ const ProjectCard = (props) => {
             <span></span>
           )}
           {props.gitLink !== undefined ? (
-            <a className={styles.actionButtons} href={props.gitLink} target="_blank" rel="noreferrer">
+            <a
+              className={styles.actionButtons}
+              href={props.gitLink}
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub size="16px" />
               &ensp;SOURCE
             </a>
@@ -58,7 +78,12 @@ const ProjectCard = (props) => {
             <span></span>
           )}
           {props.designLink !== undefined ? (
-            <a className={styles.actionButtons} href={props.designLink} target="_blank" rel="noreferrer">
+            <a
+              className={styles.actionButtons}
+              href={props.designLink}
+              target="_blank"
+              rel="noreferrer"
+            >
               <CgFigma size="16px" />
               &ensp;DESIGN
             </a>
