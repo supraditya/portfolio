@@ -48,11 +48,13 @@ const IndexPage = () => {
         <meta property="og:image" content={fav.image} />
       </Helmet>
       <Sidebar />
-      <div id="home">
-        <Home />
-      </div>
-      <div id="about" className={styles.about}>
-        <About />
+      <div className={styles.homeContainer}>
+        <div id="home">
+          <Home />
+        </div>
+        <div id="about" className={styles.about}>
+          <About />
+        </div>
       </div>
       <div className={styles.skillsWorkFooterContainer}>
         <div id="skills" className={styles.exp}>
@@ -130,7 +132,11 @@ const IndexPage = () => {
             </a>
           </div>
           <p>
-            Made (<span role="img" aria-label="heart-emoji">❤️</span> is for nerds) by{" "}
+            Made (
+            <span role="img" aria-label="heart-emoji">
+              ❤️
+            </span>{" "}
+            is for nerds) by{" "}
             <span className={styles.orangeText}>Aditya Menon</span> (supraditya)
           </p>
         </div>

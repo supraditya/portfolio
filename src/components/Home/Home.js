@@ -68,6 +68,16 @@ const Home = () => {
           <FaGoogleDrive />
           &ensp;VIEW RESUME
         </a>
+        <div style={{ marginBottom: "3%" }}></div>
+        <a
+          href="https://drive.google.com/file/d/1LXbbQQ_4JjEGOjlwZftDnE4l7W2jqgnf/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.buttonStyle}
+        >
+          <FaGoogleDrive />
+          &ensp;DESIGN PORTFOLIO
+        </a>
       </div>
       <button
         className={styles.mobileChevDiv}

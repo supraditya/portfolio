@@ -21,7 +21,7 @@
   .main {
     background-image: url("../assets/spiral.svg"),
       url("../assets/self-mobile.png") !important;
-    background-size: contain, 78vh !important;
+    background-size: contain, 80vh !important;
     background-position-x: 50%, 50% !important;
     background-position-y: 0%, 104vh !important;
   }
@@ -112,6 +112,12 @@ body {
   background-color: #000000;
   font-family: "Saira", sans-serif;
 }
+.homeContainer
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .whiteText {
   color: #ffffff;
   font-weight: 500;
@@ -128,7 +134,7 @@ body {
   background-image: url("../assets/spiral.svg"), url("../assets/self.png");
   background-position-x: 50%, 100%;
   background-position-y: 0%, 100vh;
-  background-size: contain, 85vh;
+  background-size: 95%, 90vh;
   background-repeat: no-repeat, no-repeat;
   background-position: none, right;
   background-attachment: none, fixed;
@@ -138,6 +144,7 @@ body {
 }
 .about {
   margin-top: 6% !important;
+  /* border: solid 1px white; */
   /* height: 95vh; */
   /* width: 100%; */
   padding-left: 5%;
