@@ -19,9 +19,9 @@ const About = () => {
           I, <span className={styles.orangeText}>Aditya Menon</span>, am a Final
           Year Computer Science student at VIT Vellore.<br></br>
           <br></br> I have been working as a self-taught Frontend Web Developer
-          and Designer for over <span className={styles.orangeText}>2</span>{" "}
-          years and have completed an internship, along with several projects
-          for my Student Organisation:{" "}
+          and Designer for over <span className={styles.orangeText}>3</span>{" "}
+          years and have completed several internships, along with some projects
+          for my former Student Organisation:{" "}
           <span className={styles.orangeText}>IEEE-CS VIT</span>.<br></br>
           <br></br> Apart from Web Development, I occasionally produce music,
           sketch comedy and standups since you either gotta be funny or

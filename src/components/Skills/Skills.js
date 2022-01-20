@@ -63,13 +63,13 @@ const Skills = () => {
           <EduContainer
             start="APR"
             end="2021"
-            fact="161V, 163Q, 4.5AWA"
+            fact="324/340, 4.5 AWA"
             instName="GRE"
           />
           <EduContainer
             start="2018"
             end="NOW"
-            fact="CGPA(As of 6th Sem): 8.35/10"
+            fact="CGPA (As of 7th Sem): 8.37/10"
             instName="VIT Vellore"
           />
           <EduContainer
