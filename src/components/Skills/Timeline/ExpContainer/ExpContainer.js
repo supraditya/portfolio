@@ -5,15 +5,15 @@ const ExpContainer = (props) => {
   return (
     <div className={styles.outer}>
       <div>
-        <div className={styles.jobPosition}>Web Developer</div>
+        <div className={styles.jobPosition}>{props.title}</div>
         <div className={styles.companyJobType}>
-          <span>Mathrithms</span>
+          <span>{props.company}</span>
           <span className={styles.companyJobSeparator}></span>
-          <span>Internship</span>
+          <span>{props.jobtype}</span>
         </div>
-        <p className={styles.jobLoc}>Mumbai, India</p>
+        <p className={styles.jobLoc}>{props.city}, {props.country}</p>
       </div>
-      <p className={styles.jobDate}>AUG 2021 - SEP 2021</p>
+      <p className={styles.jobDate}>{props.startdate} - {props.enddate}</p>
     </div>
   );
 };
