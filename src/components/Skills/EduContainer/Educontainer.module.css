@@ -94,7 +94,7 @@
   z-index: 2;
   color: #fa6900;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: -30%;
   padding-left: 2%;
   padding-right: 2%;
@@ -103,6 +103,7 @@
   position: relative;
   z-index: 2;
   font-size: 20px;
+  font-weight: 400;
   color: #ffffff;
   padding-left: 2%;
   padding-right: 2%;
