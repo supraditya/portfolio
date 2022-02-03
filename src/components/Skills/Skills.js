@@ -11,7 +11,17 @@ import {
   DiIllustrator,
   DiBootstrap,
 } from "react-icons/di";
-import { SiJavascript, SiMysql, SiMicrosoftoffice } from "react-icons/si";
+import {
+  SiJavascript,
+  SiMysql,
+  SiMicrosoftoffice,
+  SiAdobexd,
+  SiTailwindcss,
+  SiTypescript,
+  SiGatsby,
+} from "react-icons/si";
+
+import {FaNodeJs} from 'react-icons/fa'
 
 const Skills = () => {
   return (
@@ -36,7 +46,11 @@ const Skills = () => {
               <DiJava color="#007396" />
             </span>
             <span className={styles.skillIcon}>
-              <img src={require("../../assets/cLang.svg")} alt="C logo" />
+              <img
+                src={require("../../assets/cLang.svg")}
+                style={{ height: "50px", width: "auto" }}
+                alt="C logo"
+              />
             </span>
             <span className={styles.skillIcon}>
               <DiIllustrator color="#FF9A00" />
@@ -45,7 +59,11 @@ const Skills = () => {
               <DiBootstrap color="#7952B3" />
             </span>
             <span className={styles.skillIcon}>
-              <img src={require("../../assets/Figma.svg")} alt="figma logo" />
+              <img
+                src={require("../../assets/Figma.svg")}
+                style={{ height: "50px", width: "auto" }}
+                alt="figma logo"
+              />
             </span>
             <span className={styles.skillIcon}>
               <SiJavascript color="#F7DF1E" />
@@ -55,6 +73,28 @@ const Skills = () => {
             </span>
             <span className={styles.skillIcon}>
               <SiMicrosoftoffice color="#D83B01" />
+            </span>
+            <span className={styles.skillIcon}>
+              <SiAdobexd color="#FB35BE" />
+            </span>
+            <span className={styles.skillIcon}>
+              <FaNodeJs color="#7DB800" />
+            </span>
+            <span className={styles.skillIcon}>
+              <SiTailwindcss color="#38BDF8" />
+            </span>
+            <span className={styles.skillIcon}>
+              <SiTypescript color="#3178C6" />
+            </span>
+            <span className={styles.skillIcon}>
+              <SiGatsby color="#663399" />
+            </span>
+            <span className={styles.skillIcon}>
+              <img
+                style={{ height: "50px", width: "auto" }}
+                src={require("../../assets/flutter.png")}
+                alt="flutter logo"
+              />
             </span>
           </div>
         </div>
