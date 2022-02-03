@@ -20,26 +20,25 @@
 }
 
 .outer {
-  border: solid 1px #777;
+  border-bottom: solid 1px #777;
   /* box-shadow: 0 2px 2px 2px #595959; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   padding: 1% 2% 1% 2%;
-  background-color: #222222;
+  /* background-color: #222222; */
   margin-bottom: 3%;
 }
 .outerMulti {
-  border: solid 1px #777;
-  /* box-shadow: 0 2px 2px 2px #595959; */
+  border-bottom: solid 1px #777;
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
   flex-direction: column;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   padding: 1% 2% 1% 2%;
-  background-color: #222222;
+  /* background-color: #222222; */
   margin-bottom: 3%;
 }
 .companyJobSeparator {
@@ -79,7 +78,8 @@
 }
 .jobDateMulti {
   margin-left: 16px;
-  margin-top: -1px;
+  margin-top: -2px;
+  font-size: 14px;
   color: #777;
 }
 .jobLoc {

@@ -3,6 +3,7 @@ import styles from "./ExpContainer.module.css";
 
 const ExpContainer = (props) => {
   let expDiv;
+  // One position ExpContainer
   if (props.positions === 1) {
     expDiv = (
       <div className={styles.outer}>
@@ -22,12 +23,13 @@ const ExpContainer = (props) => {
         </p>
       </div>
     );
-  } else if(props.positions === 2) {
-    let positionsArray=[];
+  } else {
+    // Multi position expContainer
+    let positionsArray = [];
     props.positionlist.forEach((position) => {
       let temp = (
         <div className={styles.companyJobTypeMulti}>
-          <span className={styles.companyJobSeparatorMulti}></span>  
+          <span className={styles.companyJobSeparatorMulti}></span>
           <span>{position.title}</span>
           <br></br>
           <p className={styles.jobDateMulti}>
@@ -49,8 +51,8 @@ const ExpContainer = (props) => {
           </p>
         </div>
         <div>
-        {positionsArray[0]}
-        {positionsArray[1]}
+          {/* Printing all positions under a given company */}
+          {positionsArray}
         </div>
       </div>
     );
