@@ -8,7 +8,29 @@ const Timeline = () => {
   return (
     <div>
       <div className={styles.expContainer}>
+        {/* Start date of title 1 first, then start date of title 2 */}
+        {/* Same for end dates */}
         <ExpContainer
+          positions={2}
+          positionlist={[
+            {
+              title: "Projects Head",
+              startdate: "DEC 2020",
+              enddate: "DEC 2021",
+            },
+            {
+              title: "Core Committee Member",
+              startdate: "DEC 2018",
+              enddate: "DEC 2020",
+            },
+          ]}
+          company="IEEE Computer Society VIT"
+          jobtype="Student Branch"
+          city="Vellore"
+          country="India"
+        />
+        <ExpContainer
+          positions={1}
           title="Radio Jockey, English Section"
           company="VIT Community Radio 90.8 MHz"
           startdate="DEC 2018"
@@ -18,6 +40,7 @@ const Timeline = () => {
           country="India"
         />
         <ExpContainer
+          positions={1}
           title="Web Developer"
           company="Mathrithms"
           startdate="AUG 2021"
@@ -27,6 +50,7 @@ const Timeline = () => {
           country="India"
         />
         <ExpContainer
+          positions={1}
           title="Virtual Research Attachment Trainee"
           company="Universiti Teknologi PETRONAS"
           startdate="JUN 2021"
@@ -36,6 +60,7 @@ const Timeline = () => {
           country="Malaysia"
         />
         <ExpContainer
+          positions={1}
           title="Frontend Web Developer"
           company="Apli"
           startdate="AUG 2020"
@@ -45,6 +70,7 @@ const Timeline = () => {
           country="India"
         />
         <ExpContainer
+          positions={1}
           title="Frontend Web Developer"
           company="Surya NestBuild Ltd."
           startdate="JUN 2020"

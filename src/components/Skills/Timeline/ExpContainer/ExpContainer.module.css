@@ -10,6 +10,19 @@
     background-color: #222222;
     margin-bottom: 3%;
 }
+.outerMulti
+{
+    border: solid 1px #777;
+    /* box-shadow: 0 2px 2px 2px #595959; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 1% 2% 1% 2%;
+    background-color: #222222;
+    margin-bottom: 3%;
+}
 .companyJobSeparator
 {
     display: inline-block;
@@ -32,6 +45,29 @@
 .companyJobType
 {
     margin-bottom: -1%;
+}
+.companyJobTypeMulti
+{
+    margin-bottom: 3%;
+    font-size: 18px;
+}
+.companyJobSeparatorMulti
+{
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 1px;
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+}
+.jobDateMulti
+{
+    margin-left: 16px;
+    margin-top: -1px;
+    color: #777;
 }
 .jobLoc
 {
