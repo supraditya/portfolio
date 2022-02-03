@@ -18,9 +18,11 @@ const ExpContainer = (props) => {
             {props.city}, {props.country}
           </p>
         </div>
-        <p className={styles.jobDate}>
-          {props.startdate} - {props.enddate}
-        </p>
+        <div className={styles.jobDate}>
+          <span>{props.startdate}</span>
+          <span> to </span>
+          <span>{props.enddate}</span>
+        </div>
       </div>
     );
   } else {
@@ -32,9 +34,9 @@ const ExpContainer = (props) => {
           <span className={styles.companyJobSeparatorMulti}></span>
           <span>{position.title}</span>
           <br></br>
-          <p className={styles.jobDateMulti}>
+          <div className={styles.jobDateMulti}>
             {position.startdate} - {position.enddate}
-          </p>
+          </div>
         </div>
       );
       positionsArray.push(temp);

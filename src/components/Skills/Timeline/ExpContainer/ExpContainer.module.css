@@ -4,10 +4,12 @@
   }
   .jobPosition{
       font-size: 18px !important;
+      width: 90% !important;
   }
   .companyJobType {
     /* margin-bottom: -1%; */
     font-size: 14px !important;
+    width: 90% !important;
   }
   .companyJobTypeMulti {
     /* margin-bottom: 3%; */
@@ -21,24 +23,18 @@
 
 .outer {
   border-bottom: solid 1px #777;
-  /* box-shadow: 0 2px 2px 2px #595959; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border-radius: 8px; */
   padding: 1% 2% 1% 2%;
-  /* background-color: #222222; */
   margin-bottom: 3%;
 }
 .outerMulti {
   border-bottom: solid 1px #777;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   flex-direction: column;
-  /* border-radius: 8px; */
   padding: 1% 2% 1% 2%;
-  /* background-color: #222222; */
   margin-bottom: 3%;
 }
 .companyJobSeparator {
@@ -81,6 +77,7 @@
   margin-top: -2px;
   font-size: 14px;
   color: #777;
+  font-weight: 600;
 }
 .jobLoc {
   margin-top: 0;
@@ -91,4 +88,9 @@
   font-size: 24px;
   font-weight: 600;
   color: #777;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
 }
