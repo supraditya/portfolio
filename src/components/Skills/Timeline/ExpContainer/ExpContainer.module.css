@@ -1,0 +1,46 @@
+.outer
+{
+    border: solid 1px #777;
+    /* box-shadow: 0 2px 2px 2px #595959; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 1% 2% 1% 2%;
+    background-color: #222222;
+}
+.companyJobSeparator
+{
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 50%;
+    height: 4px;
+    width: 4px;
+}
+.jobPosition
+{
+    color: #fa6900;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: -1%;
+}
+.companyJobType
+{
+    margin-bottom: -1%;
+}
+.jobLoc
+{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+.jobDate
+{
+    font-size: 28px;
+    font-weight: 600;
+    color: #777;
+}
