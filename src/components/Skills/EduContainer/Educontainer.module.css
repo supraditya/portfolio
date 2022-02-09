@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1000px) {
   .dateText {
-    font-size: 60px !important;
+    font-size: 58px !important;
     /* border: solid 1px white; */
     /* transform: translateY(-10px); */
   }
@@ -23,9 +23,15 @@
 }
 
 /* Edu styling for iphone 6/7/8 */
+@media only screen and (max-width: 500px) {
+  .dateText{
+    font-size: 46px !important;
+  }
+} 
 @media only screen and (max-width: 450px) {
   .dateText{
     transform: translateY(20px);
+    /* font-size: 44px !important; */
   }
   .instName{
     transform: translateY(-10px);
@@ -36,7 +42,7 @@
 }
 @media only screen and (max-width: 400px) {
   .dateText {
-    font-size: 48px !important;
+    font-size: 44px !important;
     transform: translateY(-10px);
   }
   .instName {
@@ -57,23 +63,25 @@
   }
   .instName {
     font-size: 12px !important;
-    transform: translateY(5px);
+    /* transform: translateY(5px); */
   }
   .fact {
     font-size: 10px !important;
-    transform: translateY(5px);
+    /* transform: translateY(5px); */
   }
 }
 .outer {
   /* position: relative; */
   /* z-index: 1; */
+  margin-left: auto;
+  margin-right: auto;
   border: solid 1px #777;
   background-color: #222222;
   max-width: 420px;
   height:max-content;
   /* min-height: 160px; */
   /* max-height: 170px; */
-  padding: 3% 1% 2% 1%;
+  padding: 5% 1% 2% 2%;
   /* color: #fff; */
   border-radius: 0 35px 0 35px;
   margin-bottom: 4%;
@@ -84,7 +92,7 @@
   position: relative;
   z-index: 0;
   color: #595959;
-  font-size: 72px;
+  font-size: 68px;
   /* border: solid 1px red; */
   text-align: center;
   margin: 0;
@@ -93,6 +101,7 @@
   position: relative;
   z-index: 2;
   color: #fa6900;
+  /* border: solid 1px red; */
   font-size: 22px;
   font-weight: 600;
   margin-top: -30%;

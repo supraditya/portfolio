@@ -33,7 +33,7 @@ const Work = () => {
           title="MOR TechFab"
           domains={["Web Development", "Project Management"]}
           tech_used={["Mobirise", "Netlify"]}
-          siteLink="https://mortechfab.com"
+          siteLink="https://www.mortechfab.com"
           project_img="mortechfab"
         />
         <ProjectCard
@@ -41,7 +41,6 @@ const Work = () => {
           domains={["Web Development"]}
           tech_used={["JQuery", "FullPageJS", "Netlify"]}
           gitLink="https://github.com/IEEECS-VIT/hackbattle20"
-          siteLink="https://hackbattle.ieeecsvit.com"
           project_img="hackbattle"
         />
         <ProjectCard

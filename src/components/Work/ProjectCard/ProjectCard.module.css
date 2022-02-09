@@ -22,6 +22,12 @@
     font-size: 12px !important;
   }
 }
+@media only screen and (max-width: 500px) {
+  .outer
+  {
+    margin-bottom: 8% !important;
+  }
+}
 
 .outer {
   color: white;
