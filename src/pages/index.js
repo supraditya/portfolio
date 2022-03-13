@@ -17,8 +17,11 @@ import { IoMail } from "react-icons/io5";
 import scrollTo from "gatsby-plugin-smoothscroll";
 import { Helmet } from "react-helmet";
 
-const fav = {
-  image: require("../assets/my-logo-fav.png"),
+// const fav = {
+//   image: require("../assets/my-logo-fav.png"),
+// };
+const fbIcon = {
+  image: require("../assets/my-logo-fb-preview.png"),
 };
 
 const IndexPage = () => {
@@ -45,7 +48,7 @@ const IndexPage = () => {
         />
         <meta property="og:url" content="https://www.supraditya.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={fav.image} />
+        <meta property="og:image" content={fbIcon.image} />
       </Helmet>
       <Sidebar />
       <div className={styles.homeContainer}>
