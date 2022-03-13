@@ -48,7 +48,7 @@ const IndexPage = () => {
         />
         <meta property="og:url" content="https://www.supraditya.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={fbIcon.image} />
+        <meta property="og:image" itemProp="image" content="https://www.supraditya.com/my-logo-share-preview.png" />
       </Helmet>
       <Sidebar />
       <div className={styles.homeContainer}>
