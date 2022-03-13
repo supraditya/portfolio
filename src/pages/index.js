@@ -40,11 +40,11 @@ const IndexPage = () => {
         ></meta>
         <meta
           property="og:title"
-          content="Aditya Menon, Web Developer and Designer"
+          content="Aditya Menon"
         />
         <meta
           property="og:description"
-          content="My name is Aditya Menon. I am a Web Developer &amp; a UI/UX Designer, and this is my Portfolio Site."
+          content="I am a Web Developer &amp; a UI/UX Designer, and this is my Portfolio Site."
         />
         <meta property="og:url" content="https://www.supraditya.com/" />
         <meta property="og:type" content="website" />
