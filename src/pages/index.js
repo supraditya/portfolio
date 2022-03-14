@@ -32,7 +32,7 @@ const IndexPage = () => {
         <title>Aditya Menon</title>
         <meta
           name="description"
-          content="My name is Aditya Menon. I am a Web Developer &amp; a UI/UX Designer, and this is my Portfolio Site."
+          content="I am a Web Developer &amp; a UI/UX Designer, and this is my Portfolio Site."
         ></meta>
         <meta
           name="keywords"
