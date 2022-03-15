@@ -29,6 +29,9 @@ const IndexPage = () => {
     <div className={styles.main}>
       <Helmet>
         <meta charSet="UTF-8" />
+        <meta property="og:url" content="https://www.supraditya.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.supraditya.com/my-logo-share-preview.png" />
         <title>Aditya Menon</title>
         <meta
           name="description"
@@ -46,9 +49,6 @@ const IndexPage = () => {
           property="og:description"
           content="I am a Web Developer &amp; a UI/UX Designer, and this is my Portfolio Site."
         />
-        <meta property="og:url" content="https://www.supraditya.com/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" itemProp="image" content="https://www.supraditya.com/my-logo-share-preview.png" />
       </Helmet>
       <Sidebar />
       <div className={styles.homeContainer}>
