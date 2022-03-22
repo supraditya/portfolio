@@ -112,8 +112,7 @@ body {
   background-color: #000000;
   font-family: "Saira", sans-serif;
 }
-.homeContainer
-{
+.homeContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

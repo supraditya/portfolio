@@ -24,19 +24,19 @@
 
 /* Edu styling for iphone 6/7/8 */
 @media only screen and (max-width: 500px) {
-  .dateText{
+  .dateText {
     font-size: 46px !important;
   }
-} 
+}
 @media only screen and (max-width: 450px) {
-  .dateText{
+  .dateText {
     transform: translateY(20px);
     /* font-size: 44px !important; */
   }
-  .instName{
+  .instName {
     transform: translateY(-10px);
   }
-  .fact{
+  .fact {
     transform: translateY(-10px);
   }
 }
@@ -78,7 +78,7 @@
   border: solid 1px #777;
   background-color: #222222;
   max-width: 420px;
-  height:max-content;
+  height: max-content;
   /* min-height: 160px; */
   /* max-height: 170px; */
   padding: 5% 1% 2% 2%;

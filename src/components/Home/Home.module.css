@@ -29,7 +29,6 @@
     height: 50px !important;
     font-size: 14px !important;
   }
-
 }
 
 @media only screen and (min-height: 800px) and (max-width: 450px) {
@@ -55,15 +54,15 @@
     {
         font-size: 16px !important;
     } */
-    .whiteText {
-      padding-top: 12%;
-      /* border: solid 1px white; */
-      margin-bottom: -14% !important;
-      font-size: 26px !important;
-    }
-    .orangeTextLarge {
-      font-size: 26px !important;
-    }
+  .whiteText {
+    padding-top: 12%;
+    /* border: solid 1px white; */
+    margin-bottom: -14% !important;
+    font-size: 26px !important;
+  }
+  .orangeTextLarge {
+    font-size: 26px !important;
+  }
 }
 
 /* Till iphone 5 */

@@ -21,7 +21,7 @@ import {
   SiGatsby,
 } from "react-icons/si";
 
-import {FaNodeJs} from 'react-icons/fa'
+import { FaNodeJs } from "react-icons/fa";
 
 const Skills = () => {
   return (

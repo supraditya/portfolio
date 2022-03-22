@@ -27,11 +27,14 @@ const fbIcon = {
 const IndexPage = () => {
   return (
     <div className={styles.main}>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "en" }}>
         <meta charSet="UTF-8" />
         <meta property="og:url" content="https://www.supraditya.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.supraditya.com/my-logo-share-preview.png" />
+        <meta
+          property="og:image"
+          content="https://www.supraditya.com/my-logo-share-preview.png"
+        />
         <title>Aditya Menon</title>
         <meta
           name="description"
@@ -41,10 +44,7 @@ const IndexPage = () => {
           name="keywords"
           content="Aditya, Menon, Aditya Menon, supraditya, Supraditya, Web Developer, Frontend Web Developer, IEEECS, IEEE-CS, IEEE Computer Society VIT, VIT, IEEE CS VIT, Frontend Web Development, freehongkong, 4/6/1989, pooh"
         ></meta>
-        <meta
-          property="og:title"
-          content="Aditya Menon"
-        />
+        <meta property="og:title" content="Aditya Menon" />
         <meta
           property="og:description"
           content="I am a Web Developer &amp; a UI/UX Designer, and this is my Portfolio Site."

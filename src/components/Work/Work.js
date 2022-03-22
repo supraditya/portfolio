@@ -12,10 +12,7 @@ const Work = () => {
       <div className={styles.projectsOuter}>
         <ProjectCard
           title="Dusk Security"
-          domains={[
-            "Web Design",
-            "Web Development",
-          ]}
+          domains={["Web Design", "Web Development"]}
           tech_used={["GatsbyJS", "React", "Netlify", "Figma", "Illustrator"]}
           designLink="https://www.figma.com/file/v5KjDGjjFHnPV9w22uRkVt/Dusk-Security-Landing-Page?node-id=302%3A1582"
           siteLink="https://dusksecurity.com"
