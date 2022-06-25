@@ -101,27 +101,31 @@ const Skills = () => {
         <div className={styles.eduDiv}>
           <h1 className={styles.whiteTextEdu}>Education</h1>
           <EduContainer
-            start="APR"
-            end="2021"
-            fact="324/340, 4.5 AWA"
-            instName="GRE"
+            start="2022"
+            end="NOW"
+            fact="MS in Information Studies"
+            fact2="Fall 2022 Incoming"
+            instName="University of Michigan"
           />
           <EduContainer
             start="2018"
-            end="NOW"
-            fact="CGPA (As of 7th Sem): 8.37/10"
+            end="2022"
+            fact="Computer Science"
+            fact2="CGPA: 8.55/10"
             instName="VIT Vellore"
           />
           <EduContainer
             start="2016"
             end="2018"
-            fact="Computer Science: 183/200"
+            fact="Computer Science"
+            fact2="85%"
             instName="PACE Junior Science College"
           />
           <EduContainer
             start="2009"
             end="2016"
-            fact="Computer Science: 100/100"
+            fact="Computer Science"
+            fact2="96%"
             instName="Smt. Sulochanadevi Singhania School"
           />
         </div>

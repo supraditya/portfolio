@@ -41,6 +41,16 @@ const Timeline = () => {
         />
         <ExpContainer
           positions={1}
+          title="UI/UX Intern"
+          company="Dusk Security"
+          startdate="SEP 2021"
+          enddate="OCT 2021"
+          jobtype="Internship"
+          city="Jammu"
+          country="India"
+        />
+        <ExpContainer
+          positions={1}
           title="Web Developer"
           company="Mathrithms"
           startdate="AUG 2021"

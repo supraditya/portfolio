@@ -8,6 +8,7 @@ const EduContainer = (props) => {
       </p>
       <p className={styles.instName}>{props.instName}</p>
       <p className={styles.fact}>{props.fact}</p>
+      <p className={styles.fact2}>{props.fact2}</p>
     </div>
   );
 };

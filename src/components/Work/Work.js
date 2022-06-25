@@ -11,6 +11,13 @@ const Work = () => {
       <br></br>
       <div className={styles.projectsOuter}>
         <ProjectCard
+          title="Cryptogods Anubis"
+          domains={["Web Design", "Web Development"]}
+          tech_used={["React", "Netlify", "Figma", "Illustrator"]}
+          siteLink="https://cryptogodsanubis.com"
+          project_img="cryptogodsanubis"
+        />
+        <ProjectCard
           title="Dusk Security"
           domains={["Web Design", "Web Development"]}
           tech_used={["GatsbyJS", "React", "Netlify", "Figma", "Illustrator"]}
