@@ -20,9 +20,9 @@ import { Helmet } from "react-helmet";
 // const fav = {
 //   image: require("../assets/my-logo-fav.png"),
 // };
-const fbIcon = {
-  image: require("../assets/my-logo-fb-preview.png"),
-};
+// const fbIcon = {
+//   image: require("../assets/my-logo-fb-preview.png"),
+// };
 
 const IndexPage = () => {
   return (

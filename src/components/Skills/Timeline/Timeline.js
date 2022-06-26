@@ -79,7 +79,7 @@ const Timeline = () => {
           city="Mumbai"
           country="India"
         />
-        <ExpContainer
+        {/* <ExpContainer
           positions={1}
           title="Frontend Web Developer"
           company="Surya NestBuild Ltd."
@@ -88,7 +88,7 @@ const Timeline = () => {
           jobtype="Freelance"
           city="Patna"
           country="India"
-        />
+        /> */}
       </div>
       <div className={styles.chevDivMobile}>
         <p className={styles.thinWhiteText}>SOME STUFF I'VE MADE</p>
