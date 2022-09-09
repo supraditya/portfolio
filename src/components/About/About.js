@@ -16,8 +16,8 @@ const About = () => {
           Who Am <span className={styles.orangeTextHeader}>I</span>?
         </h1>
         <p className={styles.whiteText}>
-          I, <span className={styles.orangeText}>Aditya Menon</span>, am a Final
-          Year Computer Science student at VIT Vellore.<br></br>
+          I, <span className={styles.orangeText}>Aditya Menon</span>, am a First
+          Year Graduate student studying UI/UX Design and User-Centered Agile Development at the University of Michigan.<br></br>
           <br></br> I have been working as a self-taught Frontend Web Developer
           and Designer for over <span className={styles.orangeText}>3</span>{" "}
           years and have completed several internships, along with some projects
