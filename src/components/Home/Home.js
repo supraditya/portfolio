@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <div className={styles.textDiv}>
-        <p className={styles.whiteText}>
-          Hi, I'm <br></br>
+        <p className={styles.whiteText} style={{marginLeft: '1.5%'}}>
+        Hi, I'm <br></br>
           <span className={styles.orangeTextLarge}>Aditya Menon</span>
         </p>
         <p className={styles.whiteTextLarge}>Developer, Designer, Researcher.</p>
