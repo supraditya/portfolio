@@ -17,7 +17,7 @@ const Home = () => {
           Hi, I'm <br></br>
           <span className={styles.orangeTextLarge}>Aditya Menon</span>
         </p>
-        <p className={styles.whiteTextLarge}>Frontend Web Developer</p>
+        <p className={styles.whiteTextLarge}>Developer, Designer, Researcher.</p>
         <div className={styles.chevDiv}>
           <button onClick={() => scrollTo("#about")}>
             <span className={styles.icon}>
