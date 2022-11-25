@@ -135,11 +135,10 @@ const IndexPage = () => {
             </a>
           </div>
           <p>
-            Made (
+            Made with&nbsp;
             <span role="img" aria-label="heart-emoji">
               ❤️
-            </span>{" "}
-            is for nerds) by{" "}
+            </span>&nbsp;by&nbsp;
             <span className={styles.orangeText}>Aditya Menon</span> (supraditya)
           </p>
         </div>
