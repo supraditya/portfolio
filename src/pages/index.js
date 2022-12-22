@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "../components/index.module.css";
 import Home from "../components/Home/Home";
 import About from "../components/About/About";
@@ -25,6 +25,22 @@ import { Helmet } from "react-helmet";
 // };
 
 const IndexPage = () => {
+  // Used to keep track of whether body scroll needs to be set to 'scroll' or hidden, for modal UX
+  const [bodyScrollState, setbodyScrollState] = useState(false);
+  useEffect(() => {
+    const body=document.querySelector('body');
+    if (bodyScrollState)
+    {
+      body.style.overflowY="hidden";
+      body.style.paddingRight="15px";
+    }
+    else
+    {
+      body.style.overflowY="scroll";
+      body.style.paddingRight="0px";
+    }
+  }, [bodyScrollState])
+  
   return (
     <div className={styles.main}>
       <Helmet htmlAttributes={{ lang: "en" }}>
@@ -55,13 +71,17 @@ const IndexPage = () => {
         <div id="home">
           <Home />
         </div>
-        <div id="about" className={styles.about}>
-          <About />
+        <div id="work" className={styles.work}>
+          <Work setbodyScrollState={setbodyScrollState} />
+        </div>
+        <div id="skills" className={styles.exp}>
+        <Skills />
+
         </div>
       </div>
       <div className={styles.skillsWorkFooterContainer}>
-        <div id="skills" className={styles.exp}>
-          <Skills />
+        <div id="about" className={styles.about}>
+        <About />
           <div className={styles.chevDiv2}>
             <p className={styles.thinWhiteText}>SOME STUFF I'VE MADE</p>
             <button onClick={() => scrollTo("#work")}>
@@ -70,9 +90,6 @@ const IndexPage = () => {
               </span>
             </button>
           </div>
-        </div>
-        <div id="work" className={styles.work}>
-          <Work />
         </div>
         <div className={styles.footer}>
           <div className={styles.footerLinks}>

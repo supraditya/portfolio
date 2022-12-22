@@ -111,6 +111,7 @@
 body {
   background-color: #000000;
   font-family: "Saira", sans-serif;
+  overflow-y: hidden;
 }
 .homeContainer {
   display: flex;
@@ -132,13 +133,14 @@ body {
 .main {
   background-image: url("../assets/spiral.svg"), url("../assets/self.png");
   background-position-x: 50%, 100%;
-  background-position-y: 0%, 100vh;
+  background-position-y: 0%, 680vh;
   background-size: 95%, 90vh;
   background-repeat: no-repeat, no-repeat;
   background-position: none, right;
   background-attachment: none, fixed;
   /* width: 87%; */
   overflow-x: hidden;
+  /* overflow-y: hidden !important; */
   margin: auto;
 }
 .about {

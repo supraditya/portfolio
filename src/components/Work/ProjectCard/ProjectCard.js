@@ -37,10 +37,12 @@ const ProjectCard = (props) => {
   const [modalIsOpen, setIsOpen] = useState(false);
   function openModal() {
     setIsOpen(true);
+    props.setbodyScrollState(true)
   }
 
   function closeModal() {
     setIsOpen(false);
+    props.setbodyScrollState(false);
   }
   return (
     <div className={styles.outer}>
