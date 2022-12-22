@@ -17,7 +17,7 @@ const Home = () => {
         Hi, I'm <br></br>
           <span className={styles.orangeTextLarge}>Aditya Menon</span>
         </p>
-        <p className={styles.whiteTextLarge}>Developer, Designer, Researcher.</p>
+        <p className={styles.whiteTextLarge}>Designer, Developer, Researcher.</p>
         <div className={styles.chevDiv}>
           <button onClick={() => scrollTo("#about")}>
             <span className={styles.icon}>
@@ -60,7 +60,7 @@ const Home = () => {
           </a>
         </div>
         <a
-          href="https://drive.google.com/file/d/1y4Wu1bj1AASl4srcAC6cq8grRKZVLhle/view?usp=share_link"
+          href="https://drive.google.com/file/d/1otRj0IWLY-2nOdM2eIDKW-irQAptLgoU/view?usp=share_link"
           target="_blank"
           rel="noreferrer"
           className={styles.buttonStyle}
@@ -69,15 +69,12 @@ const Home = () => {
           &ensp;VIEW RESUME
         </a>
         <div style={{ marginBottom: "3%" }}></div>
-        <a
-          href="https://drive.google.com/file/d/1LXbbQQ_4JjEGOjlwZftDnE4l7W2jqgnf/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-          className={styles.buttonStyle}
-        >
-          <FaGoogleDrive />
-          &ensp;DESIGN PORTFOLIO
-        </a>
+        <button
+        className={styles.workLink}
+        onClick={() => scrollTo("#work")}
+      >
+        Jump to My Work
+      </button>
       </div>
       <button
         className={styles.mobileChevDiv}

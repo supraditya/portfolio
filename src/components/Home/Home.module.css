@@ -201,3 +201,21 @@ button span {
   border: none;
   /* margin-bottom: 5%; */
 }
+
+.workLink
+{
+  transition: all 0.2s;
+  color: #ffffff;
+  text-decoration: underline;
+  background: transparent;
+  border: none;
+  font-family: Saira;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.workLink:hover
+{
+  transition: all 0.2s;
+  color: #fa6900;
+}
