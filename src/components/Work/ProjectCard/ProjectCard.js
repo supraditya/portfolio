@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
-import { FaGithub, FaGlobe } from "react-icons/fa";
+import { FaGithub, FaGlobe, FaGoogleDrive } from "react-icons/fa";
 import { CgFigma } from "react-icons/cg";
 
 // Project images are 1920x1080. 150% zoom. https://www.site-shot.com/
@@ -86,6 +86,32 @@ const ProjectCard = (props) => {
             >
               <CgFigma size="16px" />
               &ensp;DESIGN
+            </a>
+          ) : (
+            <span></span>
+          )}
+          {props.protoLink !== undefined ? (
+            <a
+              className={styles.actionButtons}
+              href={props.protoLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <CgFigma size="16px" />
+              &ensp;PROTOTYPE
+            </a>
+          ) : (
+            <span></span>
+          )}
+          {props.reportLink !== undefined ? (
+            <a
+              className={styles.actionButtons}
+              href={props.reportLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGoogleDrive size="16px" />
+              &ensp;SUMMARY
             </a>
           ) : (
             <span></span>

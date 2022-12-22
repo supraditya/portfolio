@@ -11,15 +11,36 @@ const Work = () => {
       <br></br>
       <div className={styles.projectsOuter}>
         <ProjectCard
+        title="Forgetful Foodie"
+        domains={["Interaction Design", "Usability Analysis", "Wireframing", "Prototyping"]}
+        tech_used={["Figma", "Illustrator"]}
+        protoLink="https://www.figma.com/proto/HUxf0bhkT3OOsViPuXPg1J/SI-582-Forgetful-Foodie?node-id=133%3A21"
+        project_img="forgetful"
+        />
+        <ProjectCard
+        title="Dr Menon's Palliative Care"
+        domains={["Logo Design", "Graphic Design", "Branding"]}
+        tech_used={["Figma", "Illustrator"]}
+        designLink="https://www.figma.com/file/A6YfWv2cVPNOfp065cL2pU/Mom's-Website?node-id=0%3A1&t=3Yh17gzVfGuswQn2-3"
+        project_img="drmenon"
+        />
+        <ProjectCard
+        title="RefugeeOne"
+        domains={["Consulting", "Contextual Inquiry", "Pain Point Discovery"]}
+        tech_used={["Google Workspace"]}
+        reportLink="https://drive.google.com/file/d/1vzj4wiFZbBW2xZKafOocEQ6h6NmjdUqC/view?usp=share_link"
+        project_img="refugeeone"
+        />
+        <ProjectCard
           title="Cryptogods Anubis"
-          domains={["Web Design", "Web Development"]}
+          domains={["Web Design", "Graphic Design", "Web Development"]}
           tech_used={["React", "Netlify", "Figma", "Illustrator"]}
           siteLink="https://cryptogodsanubis.com"
           project_img="cryptogodsanubis"
         />
         <ProjectCard
           title="Dusk Security"
-          domains={["Web Design", "Web Development"]}
+          domains={["Logo Design", "Web Design", "Web Development"]}
           tech_used={["GatsbyJS", "React", "Netlify", "Figma", "Illustrator"]}
           designLink="https://www.figma.com/file/v5KjDGjjFHnPV9w22uRkVt/Dusk-Security-Landing-Page?node-id=302%3A1582"
           siteLink="https://dusksecurity.com"
@@ -33,13 +54,13 @@ const Work = () => {
           siteLink="https://www.ieeecsvit.com"
           project_img="ieeecsvit"
         />
-        <ProjectCard
+        {/* <ProjectCard
           title="MOR TechFab"
           domains={["Web Development", "Project Management"]}
           tech_used={["Mobirise", "Netlify"]}
           siteLink="https://www.mortechfab.com"
           project_img="mortechfab"
-        />
+        /> */}
         <ProjectCard
           title="Hackbattle '20"
           domains={["Web Development"]}
@@ -47,20 +68,20 @@ const Work = () => {
           gitLink="https://github.com/IEEECS-VIT/hackbattle20"
           project_img="hackbattle"
         />
-        <ProjectCard
+        {/* <ProjectCard
           title="Huntr"
           domains={["Combat Robotics"]}
           tech_used={["Arduino", "C++"]}
           gitLink="https://github.com/supraditya/Huntr"
           project_img="github_placeholder"
-        />
-        <ProjectCard
+        /> */}
+        {/* <ProjectCard
           title="Fire Detection System"
           domains={["Machine Learning, Image Processing"]}
           tech_used={["Python", "OpenCV"]}
           gitLink="https://github.com/supraditya/FireDetector"
           project_img="github_placeholder"
-        />
+        /> */}
         <ProjectCard
           title="Portfolio Website"
           domains={["Web Design, Web Development"]}
