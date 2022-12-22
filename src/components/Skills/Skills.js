@@ -104,7 +104,7 @@ const Skills = () => {
             start="2022"
             end="NOW"
             fact="MS in Information Studies"
-            fact2="Fall 2022 Incoming"
+            fact2="GPA: 4.0"
             instName="University of Michigan"
           />
           <EduContainer

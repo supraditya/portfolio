@@ -60,7 +60,7 @@ const Home = () => {
           </a>
         </div>
         <a
-          href="https://drive.google.com/file/d/1otRj0IWLY-2nOdM2eIDKW-irQAptLgoU/view?usp=share_link"
+          href="https://drive.google.com/file/d/1uyxWljLjleHnvdK9zm4By1S__-4HYRdQ/view?usp=share_link"
           target="_blank"
           rel="noreferrer"
           className={styles.buttonStyle}

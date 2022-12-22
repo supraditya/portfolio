@@ -19,7 +19,7 @@ const Work = () => {
         />
         <ProjectCard
         title="Dr Menon's Palliative Care"
-        domains={["Logo Design", "Graphic Design", "Branding"]}
+        domains={["Logo Ideation and Design", "Graphic Design", "Real-World design", "Print Media"]}
         tech_used={["Figma", "Illustrator"]}
         designLink="https://www.figma.com/file/A6YfWv2cVPNOfp065cL2pU/Mom's-Website?node-id=0%3A1&t=3Yh17gzVfGuswQn2-3"
         project_img="drmenon"
