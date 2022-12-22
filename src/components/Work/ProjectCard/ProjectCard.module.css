@@ -92,6 +92,7 @@
   align-items: flex-start;
 }
 .actionButtons {
+  cursor: pointer;
   transition: all 0.2s;
   text-decoration: none;
   background: transparent;
@@ -138,4 +139,9 @@
   /* padding-top: 1%; */
   padding-bottom: 3%;
   /* padding-right: 1.5%; */
+}
+.modalHeader
+{
+  font-weight:700;
+  color: #fa6900;
 }

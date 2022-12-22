@@ -1,13 +1,55 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./ProjectCard.module.css";
 import { FaGithub, FaGlobe, FaGoogleDrive } from "react-icons/fa";
 import { CgFigma } from "react-icons/cg";
+import Modal from 'react-modal';
+
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+    backgroundColor: '#000',
+    color: '#FFF',
+    boxShadow: '0 2px 2px #ddd',
+  },
+};
 
 // Project images are 1920x1080. 150% zoom. https://www.site-shot.com/
 
 const ProjectCard = (props) => {
+  let subtitle;
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+  Modal.defaultStyles.overlay.backgroundColor = 'rgba(0,0,0,0.6)';
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    subtitle.style.color = '#f00';
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
   return (
     <div className={styles.outer}>
+      <Modal
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+        <h3 className={styles.modalHeader}>Hello</h3>
+        <div>I am a modal</div>
+        <p>Culpa officia quis magna enim mollit.</p>
+        <button className={styles.actionButtons} onClick={closeModal}>CLOSE</button>
+      </Modal>
       {props.project_img !== "github_placeholder" ? (
         <img
           src={require(`../../../assets/projects/${props.project_img}_ss.png`)}
@@ -51,6 +93,13 @@ const ProjectCard = (props) => {
           })}
         </div>
         <div className={styles.buttonsOuter}>
+          <button
+
+            className={styles.actionButtons}
+            onClick={openModal}
+          >
+            VIEW
+          </button>
           {props.siteLink !== undefined ? (
             <a
               className={styles.actionButtons}
@@ -59,7 +108,7 @@ const ProjectCard = (props) => {
               rel="noreferrer"
             >
               <FaGlobe size="16px" />
-              &ensp;VIEW
+              &ensp;WEBSITE
             </a>
           ) : (
             <span></span>
