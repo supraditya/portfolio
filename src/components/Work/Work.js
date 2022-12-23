@@ -25,9 +25,10 @@ const Work = (props) => {
           project_img="forgetful"
           setbodyScrollState={props.setbodyScrollState}
           modalContent={{
-            "The Problem": "Lorem ipsum 1",
-            "Our Solution": "Lorem ipsum 2",
-            "My Role": "Lorem Ipsum 3",
+            "The Problem":
+              "Household food wastage has been a significant problem globally. According to the American Journal of Agricultural Economics, the average American household ends up wasting up to 31.9% of the food they purchase! This is caused in part due to the amount of mental effort required in keeping track of household food inventory so that everything is used up before it expires and the amount of time and effort it takes to meal-plan and determine the dish that tastes good, is easy to prepare, and uses an adequate amount of ingredients. Thus, we wondered how we might help people to safely consume all the highly perishable foods in their pantry without wastage, while simultaneously alleviating them of some of the mental burden of managing a household?",
+            "Our Solution": "This conundrum led us to come up with Forgetful Foodie: a smartphone application designed to help users consume all their perishable food items before they go bad through individual item age tracking and by suggesting appropriate recipes to tactfully use at-risk ingredients!",
+            "My Role": "I worked on this Interaction Design with two other teammates. My teammates were focused on the UX Research aspect of the project, while I was the primary UX Designer and developed the majority of the prototype after all feedback was interpreted and consolidated by the team as a whole.",
           }}
         />
         <ProjectCard

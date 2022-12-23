@@ -71,28 +71,14 @@ const ProjectCard = (props) => {
             alt="Projects"
           ></img>
         )}
-        {Object.keys(props.modalContent).map((title, body) => {
+        {Object.keys(props.modalContent).map((title) => {
           return (
             <div className={styles.modalContentContainer}>
               <p className={styles.modalTextHeader}>{title}</p>
-              <p className={styles.modalTextBody}>{body}</p>
+              <p className={styles.modalTextBody}>{props.modalContent[title]}</p>
             </div>
           );
         })}
-        {/* <p className={styles.modalText}>
-          Dolor irure ad magna exercitation adipisicing nulla nostrud. In
-          pariatur ullamco ea dolore laboris sint sunt deserunt consectetur amet
-          anim elit Lorem veniam. Dolor minim dolor duis anim aliqua. Consequat
-          nulla ad pariatur exercitation amet ex duis in exercitation. Ex culpa
-          enim magna incididunt velit esse sint laboris Lorem non anim sint
-          irure. Dolor deserunt duis exercitation non adipisicing aliqua quis
-          mollit id ut. Dolore incididunt velit commodo quis eiusmod aute tempor
-          ea laboris reprehenderit voluptate minim ad exercitation.Eiusmod in
-          amet quis ipsum. Dolore et labore exercitation ad. Reprehenderit
-          eiusmod ut deserunt proident sunt incididunt mollit. Aute non
-          consectetur consequat sint Lorem quis duis deserunt excepteur sunt.
-          Elit ipsum esse sunt ex nostrud nisi labore qui duis anim cupidatat.
-        </p> */}
         <div className={styles.modalButtonsOuter}>
           {props.siteLink !== undefined ? (
             <a
