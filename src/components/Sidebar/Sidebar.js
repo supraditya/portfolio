@@ -80,14 +80,14 @@ class Sidebar extends Component {
           <div className={styles.sidebarOuter}>
             <div className={styles.sidebarLinks}>
               <button onClick={() => this.scrollAndClose("#home")}>Home</button>
-              <button onClick={() => this.scrollAndClose("#about")}>
-                Who Am I?
+              <button onClick={() => this.scrollAndClose("#work")}>
+                My Work
               </button>
               <button onClick={() => this.scrollAndClose("#skills")}>
                 Skills/Experience
               </button>
-              <button onClick={() => this.scrollAndClose("#work")}>
-                My Work
+              <button onClick={() => this.scrollAndClose("#about")}>
+                Who Am I?
               </button>
             </div>
           </div>
