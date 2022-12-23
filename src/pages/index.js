@@ -8,13 +8,11 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import {
   FaLinkedin,
   FaGithub,
-  FaChevronDown,
   FaInstagram,
   FaYoutube,
   FaSoundcloud,
 } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import scrollTo from "gatsby-plugin-smoothscroll";
 import { Helmet } from "react-helmet";
 
 // const fav = {
@@ -82,14 +80,14 @@ const IndexPage = () => {
       <div className={styles.skillsWorkFooterContainer}>
         <div id="about" className={styles.about}>
         <About />
-          <div className={styles.chevDiv2}>
+          {/* <div className={styles.chevDiv2}>
             <p className={styles.thinWhiteText}>SOME STUFF I'VE MADE</p>
             <button onClick={() => scrollTo("#work")}>
               <span className={styles.icon}>
                 <FaChevronDown size="70px" />
               </span>
             </button>
-          </div>
+          </div> */}
         </div>
         <div className={styles.footer}>
           <div className={styles.footerLinks}>

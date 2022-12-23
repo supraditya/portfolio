@@ -3,6 +3,10 @@ import styles from "./Work.module.css";
 // import img from "../../assets/projects/ieeecsvit_ss.png";
 // import WorkContainer from "./WorkContainer/WorkContainer";
 import ProjectCard from "./ProjectCard/ProjectCard";
+import {
+  FaChevronDown,
+} from "react-icons/fa";
+import scrollTo from "gatsby-plugin-smoothscroll";
 // import WorkContainerSite from "./WorkContainer-siteLink/WorkContainerSite";
 const Work = (props) => {
   return (
@@ -109,6 +113,14 @@ const Work = (props) => {
           project_img="portfolio"
           setbodyScrollState={props.setbodyScrollState}
         />
+      </div>
+      <div className={styles.chevDiv}>
+          <p className={styles.thinWhiteText}>WHAT I CAN DO</p>
+          <button onClick={() => scrollTo("#skills")}>
+            <span className={styles.icon}>
+              <FaChevronDown />
+            </span>
+          </button>
       </div>
     </div>
   );

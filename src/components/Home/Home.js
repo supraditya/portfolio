@@ -19,7 +19,7 @@ const Home = () => {
         </p>
         <p className={styles.whiteTextLarge}>Designer, Developer, Researcher.</p>
         <div className={styles.chevDiv}>
-          <button onClick={() => scrollTo("#about")}>
+          <button onClick={() => scrollTo("#work")}>
             <span className={styles.icon}>
               <FaChevronDown size="70px" />
             </span>
