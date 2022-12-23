@@ -37,7 +37,7 @@ const ProjectCard = (props) => {
   const [modalIsOpen, setIsOpen] = useState(false);
   function openModal() {
     setIsOpen(true);
-    props.setbodyScrollState(true)
+    props.setbodyScrollState(true);
   }
 
   function closeModal() {
@@ -71,7 +71,15 @@ const ProjectCard = (props) => {
             alt="Projects"
           ></img>
         )}
-        <p className={styles.modalText}>
+        {Object.keys(props.modalContent).map((title, body) => {
+          return (
+            <div className={styles.modalContentContainer}>
+              <p className={styles.modalTextHeader}>{title}</p>
+              <p className={styles.modalTextBody}>{body}</p>
+            </div>
+          );
+        })}
+        {/* <p className={styles.modalText}>
           Dolor irure ad magna exercitation adipisicing nulla nostrud. In
           pariatur ullamco ea dolore laboris sint sunt deserunt consectetur amet
           anim elit Lorem veniam. Dolor minim dolor duis anim aliqua. Consequat
@@ -84,7 +92,7 @@ const ProjectCard = (props) => {
           eiusmod ut deserunt proident sunt incididunt mollit. Aute non
           consectetur consequat sint Lorem quis duis deserunt excepteur sunt.
           Elit ipsum esse sunt ex nostrud nisi labore qui duis anim cupidatat.
-        </p>
+        </p> */}
         <div className={styles.modalButtonsOuter}>
           {props.siteLink !== undefined ? (
             <a
@@ -197,7 +205,7 @@ const ProjectCard = (props) => {
         </div>
         <div className={styles.buttonsOuter}>
           <button className={styles.actionButtons} onClick={openModal}>
-            VIEW
+            DETAILS
           </button>
           {props.siteLink !== undefined ? (
             <a

@@ -3,9 +3,7 @@ import styles from "./Work.module.css";
 // import img from "../../assets/projects/ieeecsvit_ss.png";
 // import WorkContainer from "./WorkContainer/WorkContainer";
 import ProjectCard from "./ProjectCard/ProjectCard";
-import {
-  FaChevronDown,
-} from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa";
 import scrollTo from "gatsby-plugin-smoothscroll";
 // import WorkContainerSite from "./WorkContainer-siteLink/WorkContainerSite";
 const Work = (props) => {
@@ -26,6 +24,11 @@ const Work = (props) => {
           protoLink="https://www.figma.com/proto/HUxf0bhkT3OOsViPuXPg1J/SI-582-Forgetful-Foodie?node-id=133%3A21"
           project_img="forgetful"
           setbodyScrollState={props.setbodyScrollState}
+          modalContent={{
+            "The Problem": "Lorem ipsum 1",
+            "Our Solution": "Lorem ipsum 2",
+            "My Role": "Lorem Ipsum 3",
+          }}
         />
         <ProjectCard
           title="Dr Menon's Palliative Care"
@@ -39,6 +42,11 @@ const Work = (props) => {
           designLink="https://www.figma.com/file/A6YfWv2cVPNOfp065cL2pU/Mom's-Website?node-id=0%3A1&t=3Yh17gzVfGuswQn2-3"
           project_img="drmenon"
           setbodyScrollState={props.setbodyScrollState}
+          modalContent={{
+            "The Problem": "Lorem ipsum 1",
+            "Our Solution": "Lorem ipsum 2",
+            "My Role": "Lorem Ipsum 3",
+          }}
         />
         <ProjectCard
           title="RefugeeOne"
@@ -47,6 +55,11 @@ const Work = (props) => {
           reportLink="https://drive.google.com/file/d/1vzj4wiFZbBW2xZKafOocEQ6h6NmjdUqC/view?usp=share_link"
           project_img="refugeeone"
           setbodyScrollState={props.setbodyScrollState}
+          modalContent={{
+            "The Problem": "Lorem ipsum 1",
+            "Our Solution": "Lorem ipsum 2",
+            "My Role": "Lorem Ipsum 3",
+          }}
         />
         <ProjectCard
           title="Cryptogods Anubis"
@@ -55,6 +68,11 @@ const Work = (props) => {
           siteLink="https://cryptogodsanubis.com"
           project_img="cryptogodsanubis"
           setbodyScrollState={props.setbodyScrollState}
+          modalContent={{
+            "The Problem": "Lorem ipsum 1",
+            "Our Solution": "Lorem ipsum 2",
+            "My Role": "Lorem Ipsum 3",
+          }}
         />
         <ProjectCard
           title="Dusk Security"
@@ -64,6 +82,11 @@ const Work = (props) => {
           siteLink="https://dusksecurity.com"
           project_img="dusksecurity"
           setbodyScrollState={props.setbodyScrollState}
+          modalContent={{
+            "The Problem": "Lorem ipsum 1",
+            "Our Solution": "Lorem ipsum 2",
+            "My Role": "Lorem Ipsum 3",
+          }}
         />
         <ProjectCard
           title="IEEECS-VIT Website"
@@ -73,6 +96,11 @@ const Work = (props) => {
           siteLink="https://www.ieeecsvit.com"
           project_img="ieeecsvit"
           setbodyScrollState={props.setbodyScrollState}
+          modalContent={{
+            "The Problem": "Lorem ipsum 1",
+            "Our Solution": "Lorem ipsum 2",
+            "My Role": "Lorem Ipsum 3",
+          }}
         />
         {/* <ProjectCard
           title="MOR TechFab"
@@ -88,6 +116,11 @@ const Work = (props) => {
           gitLink="https://github.com/IEEECS-VIT/hackbattle20"
           project_img="hackbattle"
           setbodyScrollState={props.setbodyScrollState}
+          modalContent={{
+            "The Problem": "Lorem ipsum 1",
+            "Our Solution": "Lorem ipsum 2",
+            "My Role": "Lorem Ipsum 3",
+          }}
         />
         {/* <ProjectCard
           title="Huntr"
@@ -112,15 +145,20 @@ const Work = (props) => {
           designLink="https://www.figma.com/file/4pcawtzTmwVTvYit8c3jiU/Portfolio-Site-Design?node-id=0%3A1"
           project_img="portfolio"
           setbodyScrollState={props.setbodyScrollState}
+          modalContent={{
+            "The Problem": "Lorem ipsum 1",
+            "Our Solution": "Lorem ipsum 2",
+            "My Role": "Lorem Ipsum 3",
+          }}
         />
       </div>
       <div className={styles.chevDiv}>
-          <p className={styles.thinWhiteText}>WHAT I CAN DO</p>
-          <button onClick={() => scrollTo("#skills")}>
-            <span className={styles.icon}>
-              <FaChevronDown />
-            </span>
-          </button>
+        <p className={styles.thinWhiteText}>WHAT I CAN DO</p>
+        <button onClick={() => scrollTo("#skills")}>
+          <span className={styles.icon}>
+            <FaChevronDown />
+          </span>
+        </button>
       </div>
     </div>
   );
