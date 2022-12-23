@@ -78,7 +78,7 @@ const Home = () => {
       </div>
       <button
         className={styles.mobileChevDiv}
-        onClick={() => scrollTo("#about")}
+        onClick={() => scrollTo("#work")}
       >
         <span className={styles.icon}>
           <FaChevronDown size="60px" />

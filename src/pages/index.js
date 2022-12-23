@@ -15,30 +15,20 @@ import {
 import { IoMail } from "react-icons/io5";
 import { Helmet } from "react-helmet";
 
-// const fav = {
-//   image: require("../assets/my-logo-fav.png"),
-// };
-// const fbIcon = {
-//   image: require("../assets/my-logo-fb-preview.png"),
-// };
-
 const IndexPage = () => {
   // Used to keep track of whether body scroll needs to be set to 'scroll' or hidden, for modal UX
   const [bodyScrollState, setbodyScrollState] = useState(false);
   useEffect(() => {
-    const body=document.querySelector('body');
-    if (bodyScrollState)
-    {
-      body.style.overflowY="hidden";
-      body.style.paddingRight="15px";
+    const body = document.querySelector("body");
+    if (bodyScrollState) {
+      body.style.overflowY = "hidden";
+      body.style.paddingRight = "15px";
+    } else {
+      body.style.overflowY = "scroll";
+      body.style.paddingRight = "0px";
     }
-    else
-    {
-      body.style.overflowY="scroll";
-      body.style.paddingRight="0px";
-    }
-  }, [bodyScrollState])
-  
+  }, [bodyScrollState]);
+
   return (
     <div className={styles.main}>
       <Helmet htmlAttributes={{ lang: "en" }}>
@@ -73,22 +63,13 @@ const IndexPage = () => {
           <Work setbodyScrollState={setbodyScrollState} />
         </div>
         <div id="skills" className={styles.exp}>
-        <Skills />
-
+          <Skills />
+        </div>
+        <div id="about" className={styles.about}>
+          <About />
         </div>
       </div>
       <div className={styles.skillsWorkFooterContainer}>
-        <div id="about" className={styles.about}>
-        <About />
-          {/* <div className={styles.chevDiv2}>
-            <p className={styles.thinWhiteText}>SOME STUFF I'VE MADE</p>
-            <button onClick={() => scrollTo("#work")}>
-              <span className={styles.icon}>
-                <FaChevronDown size="70px" />
-              </span>
-            </button>
-          </div> */}
-        </div>
         <div className={styles.footer}>
           <div className={styles.footerLinks}>
             <a
@@ -153,7 +134,8 @@ const IndexPage = () => {
             Made with&nbsp;
             <span role="img" aria-label="heart-emoji">
               ❤️
-            </span>&nbsp;by&nbsp;
+            </span>
+            &nbsp;by&nbsp;
             <span className={styles.orangeText}>Aditya Menon</span> (supraditya)
           </p>
         </div>

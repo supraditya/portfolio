@@ -129,6 +129,8 @@ span img {
 
 .chevDiv2 {
   text-align: center;
+  padding-top: 2%;
+  padding-bottom: 4%;
   /* margin-top: -10%; */
 }
 .chevDiv2 button {
@@ -140,7 +142,6 @@ span img {
   font-size: 18px;
   color: #ffffff;
   font-weight: 200;
-  margin-top: 6%;
 }
 .icon {
   transition: all 0.2s;
