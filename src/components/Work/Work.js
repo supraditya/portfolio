@@ -45,9 +45,8 @@ const Work = (props) => {
           project_img="drmenon"
           setbodyScrollState={props.setbodyScrollState}
           modalContent={{
-            "The Problem": "Lorem ipsum 1",
-            "My Role": "Lorem Ipsum 2",
-            "Our Solution": "Lorem ipsum 3",
+            "The Task": "To develop a brand image and relevant promotional and print content for Dr Menon's Palliative Care: a geriatric rehabilitation center based in Thane, India.",
+            "My Role": "I was the sole designer and researcher for this project. The logo ideation, branding and media has all been created by me.",
           }}
         />
         <ProjectCard
@@ -58,9 +57,9 @@ const Work = (props) => {
           project_img="refugeeone"
           setbodyScrollState={props.setbodyScrollState}
           modalContent={{
-            "The Problem": "Lorem ipsum 1",
-            "My Role": "Lorem Ipsum 2",
-            "Our Solution": "Lorem ipsum 3",
+            "The Problem": "A key aspect of RefugeeOne's activities is the process of matching their clients i.e. refugees to relevant job opportunities based on job location, pay, the number of dependents that each client has etc. However, there was no way for the organization member to efficiently sift through all the job listings, which led to a lot of mental overhead and frustration for the organization.",
+            "My Role": "I was a part of a five-member team tasked with this problem. I was the sole member in the team with significant freelance web and application development experience, and thus I played a big part in the drafting of our eventual solution. I also conducted stakeholder interviews, analysed excerpts and co-created an affinity wall to draw better insights.",
+            "Our Solution": "We identified that a more in-depth application of Google Workspace, complete with its automation-friendly scripting and spreadsheet formulas was the ideal way for RefugeeOne to go. Given their limited budget and time constraint, we suggested hiring a Google Apps Script developer for a one-time feature addition to their currently existing database. Our long-term solution consisted of a full-stack dedicated web application for this process, which requires a greater investment of capital and time, along with occasional maintenance overheads.",
           }}
         />
         <ProjectCard
@@ -71,9 +70,8 @@ const Work = (props) => {
           project_img="cryptogodsanubis"
           setbodyScrollState={props.setbodyScrollState}
           modalContent={{
-            "The Problem": "Lorem ipsum 1",
-            "My Role": "Lorem Ipsum 2",
-            "Our Solution": "Lorem ipsum 3",
+            "The Problem": "Cryptogods Anubis is an NFT project founded in 2022. They required a new landing page, along with a minting website for their token. Two websites, one database application to keep track of minted tokens, and several graphic assets were developed for the team during this project.",
+            "My Role": "I was the sole developer working on this project. The NFT collection itself had been created by a different artist. However, all assets for the websites were created by me.",
           }}
         />
         <div className={styles.seeMoreContainer}>
@@ -100,9 +98,8 @@ const Work = (props) => {
               project_img="dusksecurity"
               setbodyScrollState={props.setbodyScrollState}
               modalContent={{
-                "The Problem": "Lorem ipsum 1",
-                "My Role": "Lorem Ipsum 2",
-                "Our Solution": "Lorem ipsum 3",
+                "The Task": "Dusk Security is a cybersecurity firm based in Jammu, India. Then being a recently created start-up, the firm needed a new logo, a landing page and an internal full-stack web application for shipment tracking.",
+                "My Role": "This was a project that I led as the Projects Head of IEEE-CS VIT. I was the sole designer working on the logo ideation and design, and the landing page design. I then supervised the development of the landing page and application, and reviewed updates and changes, all while providing feedback, and sourcing the same from our clients.",
               }}
             />
             <ProjectCard
@@ -114,9 +111,8 @@ const Work = (props) => {
               project_img="ieeecsvit"
               setbodyScrollState={props.setbodyScrollState}
               modalContent={{
-                "The Problem": "Lorem ipsum 1",
-                "My Role": "Lorem Ipsum 2",
-                "Our Solution": "Lorem ipsum 3",
+                "The Task": "IEEE-CS VIT's previous landing page needed significant updates. Having been developed using JQuery and Embedded JavaScript, we sought to use this project as a learning opportunity for the team to explore newer technical stacks for web development, such as GatsbyJS and React.",
+                "My Role": " I was the Projects Head and led a team of 7 developers, all of whom collaborated and iteratively worked on the design co-developed by the Design Head of IEEE-CS VIT and I.",
               }}
             />
           </div>
