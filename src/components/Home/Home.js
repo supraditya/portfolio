@@ -62,6 +62,7 @@ const Home = () => {
           </a>
         </div>
         <a
+          name="resume-link"
           href="https://drive.google.com/file/d/1uyxWljLjleHnvdK9zm4By1S__-4HYRdQ/view?usp=share_link"
           target="_blank"
           rel="noreferrer"

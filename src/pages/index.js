@@ -103,6 +103,7 @@ const IndexPage = () => {
               </span>
             </a>
             <a
+              name="instagram-link"
               href="https://www.instagram.com/menon_aa_gaya/"
               target="_blank"
               rel="noreferrer"
@@ -112,6 +113,7 @@ const IndexPage = () => {
               </span>
             </a>
             <a
+            name="youtube-link"
               href="https://www.youtube.com/channel/UC4J1TSccU4G_CriLC9eoAQw"
               target="_blank"
               rel="noreferrer"
@@ -121,6 +123,7 @@ const IndexPage = () => {
               </span>
             </a>
             <a
+              name="soundcloud-link"
               href="https://soundcloud.com/p-r-y-m-e-v-i-l"
               target="_blank"
               rel="noreferrer"

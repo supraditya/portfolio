@@ -54,7 +54,11 @@ const ProjectCard = (props) => {
       >
         <div className={styles.modalHeaderContainer}>
           <h3 className={styles.modalHeader}>{props.title}</h3>
-          <button aria-label="close details window" className={styles.modalCloseButton} onClick={closeModal}>
+          <button
+            aria-label="close details window"
+            className={styles.modalCloseButton}
+            onClick={closeModal}
+          >
             CLOSE
           </button>
         </div>
@@ -75,13 +79,16 @@ const ProjectCard = (props) => {
           return (
             <div className={styles.modalContentContainer}>
               <p className={styles.modalTextHeader}>{title}</p>
-              <p className={styles.modalTextBody}>{props.modalContent[title]}</p>
+              <p className={styles.modalTextBody}>
+                {props.modalContent[title]}
+              </p>
             </div>
           );
         })}
         <div className={styles.modalButtonsOuter}>
           {props.siteLink !== undefined ? (
             <a
+              name="link-to-website"
               className={styles.actionButtons}
               href={props.siteLink}
               target="_blank"
@@ -95,6 +102,7 @@ const ProjectCard = (props) => {
           )}
           {props.gitLink !== undefined ? (
             <a
+              name="link-to=source-code"
               className={styles.actionButtons}
               href={props.gitLink}
               target="_blank"
@@ -108,6 +116,7 @@ const ProjectCard = (props) => {
           )}
           {props.designLink !== undefined ? (
             <a
+            name="link-to-figma-design"
               className={styles.actionButtons}
               href={props.designLink}
               target="_blank"
@@ -121,6 +130,7 @@ const ProjectCard = (props) => {
           )}
           {props.protoLink !== undefined ? (
             <a
+            name="link-to-figma-prototype"
               className={styles.actionButtons}
               href={props.protoLink}
               target="_blank"
@@ -190,11 +200,16 @@ const ProjectCard = (props) => {
           })}
         </div>
         <div className={styles.buttonsOuter}>
-          <button aria-label="view project details" className={styles.actionButtons} onClick={openModal}>
+          <button
+            aria-label="view project details"
+            className={styles.actionButtons}
+            onClick={openModal}
+          >
             DETAILS
           </button>
           {props.siteLink !== undefined ? (
             <a
+            name="link-to-website"
               className={styles.actionButtons}
               href={props.siteLink}
               target="_blank"
@@ -208,6 +223,7 @@ const ProjectCard = (props) => {
           )}
           {props.gitLink !== undefined ? (
             <a
+              name="link-to-project-source"
               className={styles.actionButtons}
               href={props.gitLink}
               target="_blank"
@@ -221,6 +237,7 @@ const ProjectCard = (props) => {
           )}
           {props.designLink !== undefined ? (
             <a
+            name="link-to-figma-design"
               className={styles.actionButtons}
               href={props.designLink}
               target="_blank"
@@ -234,6 +251,7 @@ const ProjectCard = (props) => {
           )}
           {props.protoLink !== undefined ? (
             <a
+            name="link-to-figma-prototype"
               className={styles.actionButtons}
               href={props.protoLink}
               target="_blank"
@@ -247,6 +265,7 @@ const ProjectCard = (props) => {
           )}
           {props.reportLink !== undefined ? (
             <a
+            name="link-to-project-summary"
               className={styles.actionButtons}
               href={props.reportLink}
               target="_blank"
