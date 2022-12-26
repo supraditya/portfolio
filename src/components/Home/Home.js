@@ -13,13 +13,15 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <div className={styles.textDiv}>
-        <p className={styles.whiteText} style={{marginLeft: '1.5%'}}>
-        Hi, I'm <br></br>
+        <p className={styles.whiteText} style={{ marginLeft: "1.5%" }}>
+          Hi, I'm <br></br>
           <span className={styles.orangeTextLarge}>Aditya Menon</span>
         </p>
-        <p className={styles.whiteTextLarge}>Designer, Developer, Researcher.</p>
+        <p className={styles.whiteTextLarge}>
+          Designer, Developer, Researcher.
+        </p>
         <div className={styles.chevDiv}>
-          <button onClick={() => scrollTo("#work")}>
+          <button aria-label="scroll to my work" onClick={() => scrollTo("#work")}>
             <span className={styles.icon}>
               <FaChevronDown size="70px" />
             </span>
@@ -70,13 +72,15 @@ const Home = () => {
         </a>
         <div style={{ marginBottom: "3%" }}></div>
         <button
-        className={styles.workLink}
-        onClick={() => scrollTo("#work")}
-      >
-        Jump to My Work
-      </button>
+          aria-label="jump to my work"
+          className={styles.workLink}
+          onClick={() => scrollTo("#work")}
+        >
+          Jump to My Work
+        </button>
       </div>
       <button
+        aria-label="scroll to my work"
         className={styles.mobileChevDiv}
         onClick={() => scrollTo("#work")}
       >

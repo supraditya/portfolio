@@ -138,7 +138,7 @@ const Skills = () => {
       </div>
       <div className={styles.chevDiv2}>
         <p className={styles.thinWhiteText}>WHO I AM</p>
-        <button onClick={() => scrollTo("#about")}>
+        <button aria-label="scroll to about me" onClick={() => scrollTo("#about")}>
           <span className={styles.icon}>
             <FaChevronDown size="70px" />
           </span>

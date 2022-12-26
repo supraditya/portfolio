@@ -54,7 +54,7 @@ const ProjectCard = (props) => {
       >
         <div className={styles.modalHeaderContainer}>
           <h3 className={styles.modalHeader}>{props.title}</h3>
-          <button className={styles.modalCloseButton} onClick={closeModal}>
+          <button aria-label="close details window" className={styles.modalCloseButton} onClick={closeModal}>
             CLOSE
           </button>
         </div>
@@ -190,7 +190,7 @@ const ProjectCard = (props) => {
           })}
         </div>
         <div className={styles.buttonsOuter}>
-          <button className={styles.actionButtons} onClick={openModal}>
+          <button aria-label="view project details" className={styles.actionButtons} onClick={openModal}>
             DETAILS
           </button>
           {props.siteLink !== undefined ? (

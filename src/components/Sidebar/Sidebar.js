@@ -58,6 +58,7 @@ class Sidebar extends Component {
       >
         <div style={{ transform: this.state.sidebar }} className={styles.outer}>
           <button
+            aria-label="toggle expand or collapse sidebar menu"
             style={{ backgroundColor: this.state.buttonStyle }}
             onClick={() => this.sidebarHandler()}
             className={styles.navButton}
@@ -79,14 +80,14 @@ class Sidebar extends Component {
           </button>
           <div className={styles.sidebarOuter}>
             <div className={styles.sidebarLinks}>
-              <button onClick={() => this.scrollAndClose("#home")}>Home</button>
-              <button onClick={() => this.scrollAndClose("#work")}>
+              <button aria-label="scroll to homepage" onClick={() => this.scrollAndClose("#home")}>Home</button>
+              <button  aria-label="scroll to my work" onClick={() => this.scrollAndClose("#work")}>
                 My Work
               </button>
-              <button onClick={() => this.scrollAndClose("#skills")}>
+              <button  aria-label="scroll to sklls and experience" onClick={() => this.scrollAndClose("#skills")}>
                 Skills/Experience
               </button>
-              <button onClick={() => this.scrollAndClose("#about")}>
+              <button  aria-label="scroll to about me" onClick={() => this.scrollAndClose("#about")}>
                 Who Am I?
               </button>
             </div>

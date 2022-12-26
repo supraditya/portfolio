@@ -76,6 +76,7 @@ const Work = (props) => {
         />
         <div className={styles.seeMoreContainer}>
           <button
+            aria-label="toggle see more or less projects"
             className={styles.actionButtons}
             onClick={() => setseeMoreState(!seeMoreState)}
           >SEE&nbsp;{seeMoreState ? <span>LESS</span> : <span>MORE</span>}&nbsp;PROJECTS
@@ -171,7 +172,7 @@ const Work = (props) => {
       </div>
       <div className={styles.chevDiv}>
         <p className={styles.thinWhiteText}>WHAT I CAN DO</p>
-        <button onClick={() => scrollTo("#skills")}>
+        <button aria-label="scroll to skills and experience" onClick={() => scrollTo("#skills")}>
           <span className={styles.icon}>
             <FaChevronDown />
           </span>
