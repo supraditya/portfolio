@@ -115,7 +115,7 @@ const Skills = () => {
               fact2="CGPA: 8.55/10"
               instName="VIT Vellore"
             />
-            <EduContainer
+            {/* <EduContainer
               start="2016"
               end="2018"
               fact="Computer Science"
@@ -128,7 +128,7 @@ const Skills = () => {
               fact="Computer Science"
               fact2="96%"
               instName="Smt. Sulochanadevi Singhania School"
-            />
+            /> */}
           </div>
         </div>
         <div className={styles.rightDiv}>

@@ -66,7 +66,7 @@ const Work = (props) => {
           title="Cryptogods Anubis"
           domains={["Web Design", "Graphic Design", "Web Development"]}
           tech_used={["React", "Netlify", "Figma", "Illustrator"]}
-          siteLink="https://cryptogodsanubis.com"
+          siteLink="https://cryptogodsanubis.netlify.app"
           project_img="cryptogodsanubis"
           setbodyScrollState={props.setbodyScrollState}
           modalContent={{

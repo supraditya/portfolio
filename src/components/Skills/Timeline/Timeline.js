@@ -8,6 +8,16 @@ const Timeline = () => {
   return (
     <div>
       <div className={styles.expContainer}>
+        <ExpContainer
+          positions={1}
+          title="Web & Application Developer"
+          company="University of Michigan Information and Technology Services "
+          startdate="MAY 2023"
+          enddate="Present"
+          jobtype="Internship"
+          city="Ann Arbor, MI"
+          country="United States"
+        />
         {/* Start date of title 1 first, then start date of title 2 */}
         {/* Same for end dates */}
         <ExpContainer
@@ -29,7 +39,7 @@ const Timeline = () => {
           city="Vellore"
           country="India"
         />
-        <ExpContainer
+        {/* <ExpContainer
           positions={1}
           title="Radio Jockey, English Section"
           company="VIT Community Radio 90.8 MHz"
@@ -38,7 +48,7 @@ const Timeline = () => {
           jobtype="Club"
           city="Vellore"
           country="India"
-        />
+        /> */}
         <ExpContainer
           positions={1}
           title="UI/UX Intern"
@@ -49,7 +59,7 @@ const Timeline = () => {
           city="Jammu"
           country="India"
         />
-        <ExpContainer
+        {/* <ExpContainer
           positions={1}
           title="Web Developer"
           company="Mathrithms"
@@ -58,7 +68,7 @@ const Timeline = () => {
           jobtype="Internship"
           city="Mumbai"
           country="India"
-        />
+        /> */}
         <ExpContainer
           positions={1}
           title="Virtual Research Attachment Trainee"
